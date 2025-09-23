@@ -1,0 +1,1328 @@
+field_key,field_title,reason,final_decision,severity
+meeting_summary,סיכום הביקור,"Key does not match the title; the title refers to a visit summary, while the key refers to a meeting.",mismatch,0.9
+Patient_States,Patient states,,accept,0.0
+Comments_Concerns,Comments or concerns about UDS,Key is too specific; lacks the context of 'about UDS'.,review,0.35
+Narrative_Summary,Narrative summary,,accept,0.0
+purpose,Purpose of Contact,Key is generic; omits the object 'of contact'.,review,0.4
+response,Client Response,Key is generic; omits the actor 'client'.,review,0.35
+explanation,"Explanation (use direct quotes from Client, when possible)",Key is too generic; it does not specify the actor 'client' or the context of using direct quotes.,review,0.35
+observed_reported_mood_affect_behavior,"Functioning - Observed or Reported (may include mood, affect, behavior, cognitive functioning, etc.)",Key is overly specific and does not encompass the broader scope of 'functioning' as indicated in the title.,review,0.35
+new_issues,New Issue(s) Presented Today,Key lacks the temporal aspect ('today') and the plural form of 'issues'.,review,0.35
+talked_about,What we talked about,Key is missing the subject 'we' and the interrogative 'what'.,review,0.35
+describe_text,Describe:,,accept,0.0
+additionalcommentstext,Comments:,Key does not align with the title; it is overly specific and lacks clarity.,mismatch,0.85
+clinical_course,Clinical course of treatment including rationale for today's service,Key is relevant but lacks specificity regarding 'treatment' and 'rationale for today's service'.,review,0.35
+changes_consumer,Changes in the consumer's condition or situation,,,
+response,Current status and response to treatment,,,
+chief,Chief Complaint,,,
+history,History of Present Illness (details if applicable),,,
+treatment_history,Past Psychiatric Treatment History Including Medications and their Effects,,,
+prev_meds,Medications Previously Tried (if any),,,
+substance_abuse,Past and Current Substances Abuse,,,
+child_development,Childhood Development (Children Only),,,
+issues,Personal/Family/Social History/Legal Issues,,,
+fam_history,Family History (Biological Loading),,,
+reactions,Allergies/Adverse Reactions,,,
+med_history,Medical History,,,
+current_meds,Current Medications,,accept,0.0
+contraceptive,LMP and Contraceptive Method,,,
+height,Height and Weight:,,,
+appearance,Appearance,,accept,0.0
+eye_contact,Eye Contact,,accept,0.0
+attention,Attention Span,,,
+psych_activity,Psychomotor Activity,,,
+content,Thought Content,,,
+mood,Mood,,accept,0.0
+affect,Affect,,accept,0.0
+associations,Associations,,accept,0.0
+manner,Manner of Relating to Examiner,,,
+therapy_recs,Therapeutic Recommendations,,,
+clin_interpretations,Clinical Interpretation,,accept,0.0
+narrative,Narrative,,accept,0.0
+information_text,New Salient Information provided by client/family:,,,
+goals_text,Goal(s)/Objective(s) focused on in this session:,,,
+interventions_text,Interventions provided and client/family response:,,,
+therapeutic_text,Narrative Description,,,
+progress_text, Description of progress/client response,,,
+therapeutic_text,Narrative Description,,,
+progress_text,Description of progress/client response,,,
+info,Session Info,,,
+description,Description,,accept,0.0
+response,Response,,accept,0.0
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+info,Session Objective/Notes,,,
+summary_contact,Summary of Contact,,accept,0.0
+summary_text,"Summary: Goals, Objectives, Interventions Delivered & Consumer Response",,,
+need,Need for or goal of intervention,,,
+response,Response to Intervention,,,
+sud_symptoms,Symptoms/Problems Status (incl. changes in Circumstances/Stressors),,,
+sud_interventions,Clinical Intervention(s)/Client Response(s)/Progress toward Goal(s),,,
+sud_plan,"Plan/Additional Information, if applicable?",,,
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development?)",,,
+response,"Describe the client's response to the intervention, progress made toward goals, and strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+lastservice,Plan from Last Service.,,,
+presenting_problems,"Presenting Problem(s), as Indicated by Client/Family:",,,
+relevant_issues,Relevant Medical Issues,,,
+explain_txt1,"Explain (Include dates, means, rescue)",,,
+explain_txt2,"Explain (Include dates, means, rescue)",,,
+explain_txt3,"Explain (Include dates, means, rescue)",,,
+explain_txt4,"Explain (Include dates, means, rescue)",,,
+substance_use,"Substance use concerns, relevant history and/or treatment.",,,
+if_other2,"If ""Other"", please describe:",,,
+if_other3,"If ""Other"", please describe:",,,
+if_other4,"If ""Other"", please describe:",,,
+observations,Observations,,accept,0.0
+if_other5,"If ""Other"", please describe:",,,
+if_other6,"If ""Other"", please describe:",,,
+if_other7,"If ""Other"", please describe:",,,
+summary_response,Summary/Response of Intervention/Services,,,
+justification,Justification for the diversion or hospital recommendation:,,,
+Mental_Status_textbox,,,,
+Interventions_textbox,,,,
+Progress_toward_goals_textbox,,,,
+Action_plan_textbox,,,,
+goal,"GOAL FOR THIS SERVICE: Indicate a specific, observable and/or measurable goal(s) related to the client’s mental health needs.",,,
+narrative,"SESSION NARRATIVE: Indicate medically necessary service(s) provided. If client/collateral present, also indicate participant(s) response to service(s).",,,
+indvpresent,INDIVIDUALS PRESENT/CONTACTED:,,,
+clientprez,CLIENT PRESENTATION:,,,
+servicegoal,GOAL FOR THIS SERVICE:,,,
+functionalimpairments,FUNCTIONAL IMPAIRMENTS:,,,
+response,RESPONSE:,,accept,0.0
+first_began,"When you first began services, you were (describe symptoms, housing, medical needs, family/social situations, etc.)",,,
+goals_progress,Here are your goals and the progress you've made and some gains you've achieved.,,,
+details_services,Details and Services at other agencies.,,,
+presenting_issue,Presenting Issue,,accept,0.0
+additional_intervention,Additional Care Manager Intervention Provided During the Session,,,
+response,Client response to interventions performed,,,
+progress_towards_goal,Progress towards goals,,accept,0.0
+additional_progress,Additional Progress towards goals to be addressed during the interim or at next session,,,
+focus_of_session,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+interventions_provided,Describe the interventions provided.,,,
+clients_response_to_intervention,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+document_plan,Document the plan. If there were barriers describe the plan to overcome the barriers.,,,
+desribe_reason_text,,,,
+summary_intervention_text,,,,
+summary_contact,Summary of Contact,,accept,0.0
+description,"Description of COS Service, Future Plans and Recommendations",,,
+narrative,סיכום פגישה,,,
+barriers,Barriers to progress:,,,
+narrative,Narrative,,accept,0.0
+note_text,Note,,accept,0.0
+note_text,Note,,accept,0.0
+signature,Signature Field,,,
+purpose_text,,,,
+activity_text,,,,
+response_text,,,,
+overall_outcome_text,,,,
+purpose_text,,,,
+activity_text,,,,
+response_text,,,,
+overall_outcome_text,,,,
+purpose_text,,,,
+activity_text,,,,
+response_text,,,,
+overall_outcome_text,,,,
+comments_text,Comments,,accept,0.0
+client_comments_text,Client Comments,,accept,0.0
+health_issues_text,Client Health Issues,,,
+sud_progress,"Movement toward treatment plan objectives by (include Individual's perception of services, supports and/or treatment and progress toward goals)",,,
+sud_staff_intervention,"Staff intervention (i.e. modality, EBP, assignment of homework, etc.)",,,
+sud_individual_response,Individual's Response to Intervention,,,
+summary_text,,,,
+narrative,Narration,,,
+contact,"Collateral Contact (including all participants during the service - family, friends, Law enforcement, other staff): ",,,
+response,Response to Treatment,,,
+focus," What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+struggles,Identified Struggles,,,
+group_progress,Group Progress Update,,,
+sleep,Sleep/Appetite,,,
+issues_text,Issues Addressed During Session,,,
+nextappt_text,Next Appointment Scheduled,,,
+group,Group Progress Update,,,
+emotional,"Emotional, Behavioral or Cognitive Conditions and Complications",,,
+relapse,Relapse/Continued Use Potential,,,
+recovery,Recovery Environment,,,
+sleep,Sleep/Appetite,,,
+Observations,Observations:,,accept,0.0
+Updates,Updates:,,accept,0.0
+Response,Client Response to Interventions:,,,
+sessioncontent,Session Content,,,
+planrec,Plan/Recommendations,,,
+treatment_provided,Treatment provided (Document treatment and client outcome during session):,,,
+treatment_goals,Progress toward Treatment Goals (Document progress toward this treatment goal):,,,
+suicidal_ideation_text,Suicidal Ideation,,accept,0.0
+homicidal_ideation_text,Homicidal Ideation,,accept,0.0
+community_resources,Referral to Community Resources:,,,
+contact_with_caregiver,Contact with Caregiver:,,accept,0.0
+coordination_of_services_text,Coordination of Services,,accept,0.0
+description_of_training,"Description of Training/Intervention: (ex. Supporting, demonstrating, engaging, role-playing, empowering)",,,
+narrative,Narrative,,accept,0.0
+focus_of_session,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+interventions_provided,Describe the interventions provided.,,,
+clients_response_to_intervention,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+document_plan,Document the plan. If there were barriers describe the plan to overcome the barriers.,,,
+reson_referral,Reason for Referral/Interval History,,,
+intervention_text,Intervention,,accept,0.0
+response_text,Response,,accept,0.0
+problems_issues,"Specific problems(s), issue(s), behavior(s), skill deficits addressed:",,,
+mh_update,Update on client mental health status and significant life changes:,,,
+cm_efforts,Case Manager’s Efforts/Activities:,,,
+specific_interventions,"Specific interventions provided by peer and targeted actions taken to support, assist, model, or mentor the family toward achieving the identified service plan goal/objective focused on during the session.",,,
+progress_barriers,"Progress, or barriers to progress, made in treatment as it relates to the goals and/or objectives, as evidenced by:",,,
+any_new_needs,"Any new needs, goals, and/or objectives identified during session or service",,,
+specific_interventions,Specific interventions provided by clinician and targeted actions taken to move the consumer toward achieving the identified service plan goal objective focused on during the session:,,,
+progress_barriers,"Progress, or barriers to progress, made in treatment as it relates to the goals and/or objectives, as evidenced by:",,,
+any_new_needs,"Any new needs, goals, and/or objectives identified during session or service:",,,
+services_provided,Services Provided:,,accept,0.0
+client_response,Client response (and family if applicable) to session provided: Prompt client to restate to reflect learning:,,,
+content_intervention_progress,Content / Intervention and Progress,,accept,0.0
+intervention_detail,Intervention Details,,accept,0.0
+intervention_details,Intervention Details,,accept,0.0
+plan_additional_information,Plan / Additional Information (Indicate action plan between sessions/meetings),,,
+description_text,"Description of COS Service, Future Plans and Recommendations",,,
+summary_text,Summary,,accept,0.0
+additional_summary_text,Additional Summary,,accept,0.0
+next_steps_text,Next Steps/Plan,,,
+narrative,Narrative,,accept,0.0
+GoalTB,Client Goal Addressed,,,
+InterventionTB,Staff Intervention,,,
+ResponseTB,Client Response to Intervention,,,
+PlanTB,Plan (What are the next Steps):,,,
+NotesTB,Notes:,,accept,0.0
+barriers_addressed,Barriers Addressed,,accept,0.0
+interactive_txt,Interactive Teaching,,,
+advocate_txt,Advocate,,accept,0.0
+behavioral_txt,Behavioral Rehearsal,,,
+linking_txt,Linking,,accept,0.0
+material_txt,Material Review And Repetition,,,
+modeling_txt,Modeling,,accept,0.0
+monitoring_txt,Monitoring,,accept,0.0
+other_txt,Other,,accept,0.0
+problem_txt,Problem Solving,,,
+prompting_txt,Prompting,,accept,0.0
+referral_txt,Referral,,accept,0.0
+reinforcing_txt,Reinforcing,,accept,0.0
+roleplay_txt,Role Play,,,
+worksheets_txt,Worksheets,,accept,0.0
+session_assessment,Session Assessment,,accept,0.0
+plan_rec,Plan Recommendation,,accept,0.0
+response_plan,Response / Plan,,accept,0.0
+indiv_comments,Individual Comments,,,
+plan_comments,Plan Comments,,accept,0.0
+response_interactions,Response/Interactions (include discussion regarding any significant events or changes in the life of the person served),,,
+response_interactions,Response/Interactions (include discussion regarding any significant events or changes in the life of the person served),,,
+objective,Objective,,accept,0.0
+mental_status_exam,Mental Status Exam,,accept,0.0
+situation,Situation,,accept,0.0
+next_appointment,Next Appointment Date/Time,,,
+issues,Today's Presenting Issue(s),,,
+summary_text,Session Summary,,,
+history,History of Problem and any recent Stressors,,,
+goal,What is your immediate goal for treatment?,,,
+long_term,What would you like to see be different in the long term?,,,
+formulation,"Initial Clinical Formulation (Summary of presenting problem, problem history, treatment history, any information that is pertinent to treatment as well as diagnostic impressions)",,,
+soap_note_textbox,SOAP Note,,accept,0.0
+clinical_impression_assessment_tb,Clinical Impression/Assessment,,accept,0.0
+comments_tb,Disposition plan,,,
+notes_tb,Notes:,,accept,0.0
+soap_note_textbox,SOAP Note,,accept,0.0
+client_issues_discussed_textbox,Current Issues Discussed:,,,
+clinical_interventions_used_textbox,Clinical Interventions Used:,,accept,0.0
+observations_made_textbox,Observations Made of Individual:,,,
+clinical_assessment_textbox,Clinical Assessment of Issues:,,,
+plan_treatment_textbox,Plan for ongoing treatment or follow up needed:,,,
+update_textbox,Update to individual's personal story,,,
+response,Client Response to Intervention,,,
+response,Client Response to Intervention,,,
+response,Client Response to Intervention,,,
+situation_text,,,,
+interventions_text,,,,
+response_text,,,,
+therapeutic_interventions_provided,Therapeutic Interventions Provided,,accept,0.0
+response_intervention,Response to Intervention/Progress Toward Goals and Objectives,,,
+addional_information_plan,Additional Information/Plan (if applicable),,,
+continued_plan,Continued Additional Information/Plan (if applicable):,,,
+linkage_text,,,,
+advocacy_text,,,,
+referral_text,,,,
+monitoring_text,,,,
+followup_text,,,,
+needs_text,,,,
+chief_complaint,Chief Complaint,,accept,0.0
+hpi,History of Present Illness,,,
+past_psychaitric_history,"Past Psychiatric History (Include: CSA, case management, hospitalizations)",,,
+history_suicidal_behavioral,History of Suicidal/Homicidal/Violent Behavior,,,
+medical_history,"Medical History (head injury, seizure disorders, surgeries, etc.)",,,
+social_history,"Social History (family, emotional, physical, sex abuse, legal, substance use)",,,
+description,Description:,,accept,0.0
+persons_present,Persons Present,,accept,0.0
+changes_previous_previous_visit,Changes from Previous Visit,,accept,0.0
+mental_status_exam,Mental Status Exam,,accept,0.0
+labs,Labs,,accept,0.0
+medical_conditions,Medical Conditions,,accept,0.0
+psychiatric_recommendations_medication_side_effects,"Psychiatric Recommendations including Justification of Medication, Side Effects, and Adverse Reactions",,,
+client_participation_text,,,,
+group_focus,Group Focus*,,accept,0.0
+status_text,,,,
+summary_text,,,,
+situation_text,Situation,,accept,0.0
+intervention_text,Intervention,,accept,0.0
+response_text,Response,,accept,0.0
+progress_text,Progress,,accept,0.0
+changes_in_mse,Changes in MSE or New Issues Presented in today's session,,,
+session_objective,Session Objective/Notes,,,
+narrative,Narrative*,,accept,0.0
+support_offered,Support Offered,,accept,0.0
+response_outcome,Response/Outcome,,accept,0.0
+new_information_interim_updates,New Information / Interim Updates,,accept,0.0
+clinical_interventions_consumer_response_progress_towards_goals,Clinical Interventions / Consumer Response / Progress Towards Goals,,accept,0.0
+response_outcome,Response/Outcome,,accept,0.0
+party_txt,,,,
+case_txt,,,,
+indiv_txt,,,,
+activity_txt,,,,
+response_txt,,,,
+plan_txt,,,,
+responsetointervention,Response to Intervention/Progress Toward Goals and Objectives,,,
+additionalinfo,Additional Information/Plan (if applicable),,,
+Chief_Comptxt,,,,
+Med_Rectxt,,,,
+F_Historytxt,,,,
+Assessment_Plantxt,,,,
+current_issues,Current Issues Addressed:*,,,
+observations,Observations Made of Individual:*,,,
+plan_treatment,Specific Plan for Ongoing Treatment or Follow up Needed,,,
+activity_observations,Activity & Observations *,,accept,0.0
+riskassessment,Risk Assessment,,,
+location_text,Location*,,accept,0.0
+care_coordination_text,Care Coordination/Consultation,,,
+session_notes_text,Session Notes*,,accept,0.0
+additional_information_text,,,,
+progress_text,,,,
+location_text,Location,,accept,0.0
+session_text,Session Notes,,,
+progress_text,Progress,,accept,0.0
+focus_text,Focus of Session*,,,
+session_text,Session Notes,,,
+interventions_text,Interventions Used/Response to Interventions*,,,
+progress_text,Progress*,,accept,0.0
+crisis_text,"Current crisis situation, needs, problems, and stressors",,,
+narrative_text,Content of session/Narrative,,,
+session_content,Session Content,,accept,0.0
+screening,Review of Screening Tools,,,
+subjective,"Subjective Data (on a patient's feelings, experiences, or thoughts, such as direct quotes or their observations) *",,,
+objective,"Objective Data (regarding the client's mental or general health status, e.g., details from their therapy appointment) *",,,
+review,"Review of previous assessment, including progress",,,
+needs_barriers,Review of needs and barriers,,,
+assign,Assign Follow-up Tasks:,,,
+outreach_info,Outreach Information,,,
+desc_details,Describe details of PAYA service,,,
+clin_obs,Clinical Observations,,,
+client_response,Client Responses,,accept,0.0
+progress_towards,Progress Towards Recovery Plan Objectives,,,
+timelines,Timelines for Next Service,,,
+what_actions,What actions should the individual complete before next service?,,,
+objective,Note Address Which PCRP Objective,,,
+details,Describe details of the training service,,,
+observations,Clinical Observations,,,
+responses,Client Responses,,,
+timeline,Timelines for Next Service,,,
+intervention_text,Intervention,,accept,0.0
+response_text,Response,,accept,0.0
+progress_text,Progress,,accept,0.0
+intervention_text,Interventions:,,accept,0.0
+response_text,Response:,,accept,0.0
+what_we_talked_about,What we talked about,,accept,0.0
+plans,Plans (Who will do what by when?),,,
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+narrative,Narrative,,accept,0.0
+problems_addressed,"Specific problems(s), issue(s), behavior(s), skill deficits addressed:",,,
+update,Update on client mental health status and significant life changes:,,,
+efforts_activities,Case Manager’s Efforts/Activities:,,,
+assessment_continued,Assessment continued (A),,accept,0.0
+if_yes_explain,"If Yes, Explain?",,accept,0.0
+current,Current physical and health status,,,
+explanation,"Explanation (use direct quotes from Customer, when possible)",,,
+service,Describe details of housing service,,,
+paya_service,Describe details of PAYA service,,,
+subjective,"Subjective -Client's feelings, concerns, and experiences",,,
+objective,"Objective - Observable, quantifiable and factual data",,,
+Contact_Typetxt,,,,
+Narrativetxt,,,,
+Follow_Uptxt,,,,
+desc_distresstxt,,,,
+w_triggerstxt,,,,
+plantxt,,,,
+psych_chief_complaint,Chief Complaint,,accept,0.0
+psych_interval_history,Interval History,,accept,0.0
+psych_review_systems,Review of Systems,,accept,0.0
+psych_plan_smoking,Plan/Education provided towards smoking cessation:,,,
+psych_substance_abuse,Substance Use/Abuse/Addictive Behaviors,,,
+psych_mental_status,Mental Status Exam,,,
+psych_medical_assessment,Medical Decision Making/Assessment Plan,,,
+psych_counseling_comments,Counseling Done Comments:,,,
+psych_care_coordination,Coordination of Care Comments:,,,
+psych_other_factors,"Are there other factors affecting Medical Decision Making (comorbidities, complications, worsening conditions, etc)?",,,
+psych_goals_next,Are there any goals for the next session?,,,
+key_moments,Key Moments,,accept,0.0
+psych_1,Presenting Concerns (Chief Complaint & Additional Concerns):,,,
+psych_2,Symptom History:,,,
+psych_3,Family/Caregiver Observations:,,,
+psych_4,Appearance and Behavior:,,,
+psych_5,Mood and Affect:,,,
+psych_6,Speech and Thought Process:,,,
+psych_7,Additional Observations:,,,
+psych_8,Diagnosis:,,,
+psych_9,Clinical Impression:,,,
+psych_10,Progress:,,,
+psych_11,Medication Management:,,,
+psych_12,Therapeutic Interventions:,,,
+psych_13,Behavioral Recommendations:,,,
+psych_14,Follow-Up:,,,
+psych_15,Caregiver Education:,,,
+psych_16,Client Engagement:,,,
+psych_17,Clinical Data (lab orders/results/AIMS/ phone calls/scores from rating scales):,,,
+steps,What steps and assignments need to be taken to prepare for discharge?,,,
+home,Progress in the Home,,,
+needs,Needs,,accept,0.0
+outcomes,Describe Outcomes,,,
+intervention_activity,Intervention Activity,,accept,0.0
+effectiveness_outcome,Intervention Effectiveness / Outcome,,,
+information,Session Information,,,
+describe_services,"Describe current service(s), how the service addressed the beneficiary's behavioral health need (e.g., symptom, condition, diagnosis, and/or risk factors).",,,
+goal,Goal,,accept,0.0
+transition_plan,Transition Plan,,accept,0.0
+purpose,Purpose/Present,,,
+response,Response,,accept,0.0
+goal,Goal,,accept,0.0
+interventions_plan,Planned Interventions,,accept,0.0
+transition_plan,Transition Plan,,accept,0.0
+information,Session Information,,,
+purpose,Purpose/Problem,,,
+goals,Goals/Actions,,,
+intervention_course,Interventions and Course of Treatment/Action,,,
+problem,Problem Statement:,,,
+problem,Problem Statement,,,
+problem_statement,Problem Statement,,accept,0.0
+client_response,Client Response,,accept,0.0
+intervention_text,Intervention (Interaction that occurred during service delivery and how it relates to plan of care),,,
+response_text,Response to today's intervention / changes in condition,,,
+progress_text,Explain your progress rating,,,
+intervention_text,Describe interaction that occurred during service delivery and how it relates to plan of care,,,
+response_text,Describe response to today's Intervention,,,
+progress_text,Explain your progress rating,,,
+intervention_text,Intervention (Interaction that occurred during service delivery and how it relates to plan of care),,,
+response_text,Response to today's intervention / changes in condition,,,
+progress_text,Explain your progress rating,,,
+briefdescriptiontb,Brief Description:,,,
+medicalconcernstb,Medical Concerns:,,,
+behaviorstb,Behaviors:,,,
+housetb,House,,,
+ECSteamtb,ECS Team,,,
+familyguardiantb,Family/Guardian,,,
+psychiatristtb,Psychiatrist,,,
+currentcontext_text,"Client's current context, needs, and barriers:",,,
+summary_text,"Session summary, Care Navigator's actions to address barriers and next steps:",,,
+Progresstextbox,Progress on employment/ education since last visit:,,,
+Interventionstextbox,"Interventions used and manner of delivery, including treatment goals from ISP (treatment plan) addressed:",,,
+Responsetb,Client presentation and response to interventions (include direct client quotes):,,,
+Providertextbox,Provider/ Client plan of action (including plan for next session):,,,
+admissionsummarytext,Admission Summary:,,,
+additionalsessiontb,"Additional session/summary information (note ROIs signed, other people in the session, etc):",,,
+objectivestb,Objectives that were addressed or need to be added to the Treatment Plan:,,,
+clientplantb,Client plan,,,
+providerplan,Provider plan of action (or future directions/next steps),,,
+providerconsulted,(if applicable) Provider consulted with the following Care Team Members:,,,
+summary_text,Summary of Overall Progress:,,,
+observations,"Observations: Symptoms, Thoughts, Mood, Appearance, Behaviors ",,,
+response,"Consumer Response - Progress Towards Goals, Strengths Demonstrated ",,,
+substance,"Substance Use (status of use, substance(s) used, frequency, and comments)",,,
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+barriers,Identify barriers to treatment and identify new needs (if any).,,,
+previous_homework,Discuss/Review of previous homework if applicable.,,,
+new_homework,"Assignment of new homework, if applicable.",,,
+response,"List and/or Describe Material presented, Specific Techniques, and Parent or LAR Response",,,
+stressors_text,,,,
+help_text,,,,
+intervention_text,,,,
+steps_text,,,,
+crisis_problem,Crisis Presenting Problem,,,
+describe_risk_text," Describe Risk (ideation,intent,plan,means,attempt,& other applicable details) ",,,
+intervention_text,Intervention Description & Narrative:,,,
+patient_response,Describe the Patient's Response to Interventions Delivered:,,,
+follow_up_plan_text,"Follow Up,Plan,& Instructions Given to Patient:",,,
+intervention_description_text,Intervention Description & Narrative:,,,
+patient_response_text,Describe the Patient's Response to Interventions Delivered:,,,
+purpose,Purpose,,accept,0.0
+Functioning,"Functioning - Observed or Reported (May include mood, affect, behavior, cognitive functioning, etc.):",,,
+response,Person's Response to Intervention/Progress Toward Goals and Objectives:,,,
+Functioning,"Functioning - Observed or Reported (May include mood, affect, behavior, cognitive functioning, etc.):",,,
+response,Person's Response to Intervention/Progress Toward Goals and Objectives:,,,
+response,Person's Response to Intervention/Progress Toward Goals and Objectives:,,,
+note,Case Management Note:,,,
+currentsymptoms,Current Symptoms:,,,
+responsetointerventions,Response to Intervention(s):,,,
+new_issue_stressors_events,New Issue(s)/Stressors/Extraordinary Events Presented Today,,,
+diagnnostic_assessment,Diagnostic Assessment Update Required?,,,
+brief_mental_status_exam,Brief Mental Status Exam,,accept,0.0
+client_presents_danger_to_others,Client presents as a danger to:,,accept,0.0
+client_presents_danger_in_form_of,Danger is in the form of:,,accept,0.0
+interactive_complexity,"If yes, please select which were factors in today's visit and provide summary documentation",,,
+strengths,How client's strengths and assets will be used:,,,
+external_connections,How external resources/services support goals:,,,
+problem_summary,Summarize the problem,,,
+goal,GOAL: State the goal in the client's own words:,,,
+indictaors_goal,Describe the indicators of goal achievement,,,
+mms_plan,MMS PLAN,,accept,0.0
+documentation,Documentation,,accept,0.0
+mms_cpst_plan,MMS CPST PLAN:,,accept,0.0
+additional_comments,Additional Comments,,accept,0.0
+intervention_narrative,Intervention narrative:,,accept,0.0
+client_response,Client response:,,accept,0.0
+narrative,Presenting Issue. Clinical Observations. Therapist Interventions. Client Response. Follow-up Plan.,,,
+presenting_issue,Presenting Issues by Client and Observation by Therapist:,,,
+clinical_intervention,Clinical Intervention by Therapist:,,,
+goal_objective_addressed,Goal/Objective addressed and progress toward achievement of Goal/Objective:,,,
+client_response,"Client Response (including motivation, obstacles/barriers):",,,
+followup_plan,"Follow-up Plan (including assigned homework, recommendations, termination plan):",,,
+narrative,Narrative,,accept,0.0
+information_text,New Salient Information provided by client/family:,,,
+goals_text,Goal(s)/Objective(s) focused on in this session:,,,
+interventions_text,Interventions provided and client/family response:,,,
+narrative,Narrative,,accept,0.0
+description,Description of Acute Situation and RT Associated Behaviors/Complex Care Needed to Address:,,,
+rescommendations_outcome,Recommendation(s)/Outcome:,,,
+goal_objective,Goal and Objective being Addressed :,,,
+subjective,Subjective (Client's description of the problem):,,,
+objective,Objective (Objective observations of the client and problem):,,,
+progress_updates,"Progress and Updates Since Last Visit OR If Appointment No Show/Cancelled, MUST Document Follow Up:",,,
+goals_objectives,Goals/Objectives from TX Plan Addressed Today:	,,,
+response_plan,Recipient Response/Plans Toward Goal(s):	,,,
+subjective,Subjective,,accept,0.0
+objective,Objective,,accept,0.0
+participation,Please describe the youth & family's participation & response to the interventions above:,,,
+today_complaint,Today's Chief Complaint/Reason for Visit,,,
+history_illness,History of Present Illness,,,
+persons_present,Persons Present other than Consumer,,,
+med_history,Medical/Psychiatric History,,,
+fam_history,Family History,,,
+social_history,Social/Substance/Legal History,,,
+side_effects,Side Effects,,accept,0.0
+review_comments,Review of Systems Comments,,,
+substance_hx,Substance Use Hx,,,
+strength,Strengths,,accept,0.0
+barriers,Barriers,,accept,0.0
+mental_status,Mental Status Exam,,,
+si_comments,SI/HI Comments,,,
+mse_comments,Mental status exam additional comments,,,
+associated_signs_systems,Associated signs/systems; other information,,,
+lab_comments,Lab Comments,,accept,0.0
+information,Information and Education,,,
+counseling_comments,Counseling Activities Comments,,,
+noncounseling_comments,Non Counseling Activities Comments,,,
+treatment_plan,Plan,,accept,0.0
+intervention_or_activity,What was the intervention or activity?,,,
+client_response,What was the client's response?,,,
+progress_towards_goal,Progress towards the goal?,,accept,0.0
+enhanced_clients_response,What was the client's response,,,
+enhanced_progress_towards_goals,Progress Towards Goals,,accept,0.0
+enhanced_clients_plan,What is the plan,,,
+enhanced_intervention_or_activity,What was the intervention or activity,,,
+goals_text,Goals and Objectives Targeted/ Progress:,,,
+interventions_text,Interventions/ Services Provided:,,,
+response_text,Response to Interventions/ Assessment/ Significant Observations:,,,
+risk_text,Risk Assessment:,,,
+individuals,Individuals Present/Contacted:,,,
+content,Content of Contact:,,,
+indiv,Individuals Present/Contacted:,,,
+content,Content of Contact:,,,
+interventions_and_services,"Interventions and services: Description of service provided must support the progress note selected and how the service addressed the client’s behavioral health need (e.g., symptom, condition, diagnosis, and/or risk factors), document family involvement, if applicable.",,,
+Crisis_textbox,"Crisis Intervention/Support, explain",,,
+Otherinfo_textbox,"Other Information/ Updates such as hospitalizations, significant change in symptoms, functioning, supports, custody, educational or vocational situations",,,
+PresentingProblem_textbox,Presenting Problem (please click to complete),,,
+IntegratedSummary_textbox,Integrated Summary (please click to complete),,,
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+Identify,"Identify Specific Changes in Problems, Symptoms, or Functioning",,,
+Daily,"Daily Summary (include Life Changes, Interventions and Progress):",,,
+servicetext,,,,
+participantstext,,,,
+content_text,,,,
+response_text,,,,
+narrative,Narrative,,accept,0.0
+subjective,סובייקטיבי,,,
+objective,אובייקטיבי,,,
+current_report,Current Report of Functioning or Life Changes:,,,
+appearance_other,"If other general appearance, please describe:",,,
+mood_other,"If other mood, please describe:",,,
+affect_other,"If other affect, please describe:",,,
+observations,Observations,,accept,0.0
+interventions_other,"If other interventions needed, please explain:",,,
+progress_other,"If other progress and/or response to interventions, please explain:",,,
+safety_details,Safety Plan Response/Details:,,,
+current_report,Current Report of Functioning or Life Changes:,,,
+appearance_other,"If other appearance, please describe:",,,
+mood_other,"If other mood, please describe:",,,
+affect_other,"If other affect, please describe:",,,
+observations,Observations,,accept,0.0
+safety_details,Safety Plan Response/Details:,,,
+presenting_problems,"Presenting Problem(s), as Indicated by Client/Family:",,,
+if_otherappearance,"If ""Other"", please describe:",,,
+if_othermood,"If ""Other"", please describe:",,,
+if_otheraffect,"If ""Other"", please describe:",,,
+observations,Observations,,accept,0.0
+summary_response,Summary/Response of Intervention/Services,,,
+safety_plan,Safety Plan Response/Details:,,,
+current_report,Current Report of Functioning or Life Changes:,,,
+appearance_other,"If other appearance, please describe:",,,
+mood_other,"If other mood, please describe:",,,
+affect_other,"If other affect, please describe:",,,
+observations,Observations,,accept,0.0
+other_ebp,Other EBP:,,accept,0.0
+safety_details,Safety Plan Response/Details:,,,
+main_question_concern,Main Question/Concern for Today:,,,
+lab_results,Lab Results/Collateral Information/Records Review:,,,
+medication_side_effects,Medication Side Effects:,,accept,0.0
+updated_history,Updated Medical/Family/Social History:,,,
+plan_recommendations,Plan/Recommendations:,,accept,0.0
+psychoeducation_counseling,PsychoEducation/Counseling :,,,
+FacetoFace_textbox,,,,
+Functioning_textbox,,,,
+Interventions_textbox,,,,
+Response_textbox,,,,
+Plan_textbox,,,,
+goal,Goal for this Services:,,,
+narrative,Narrative:,,accept,0.0
+goal,"Goal for This Service: Indicate a specific, observable and/or measurable goal(s) related to the client’s mental health needs.",,,
+narrative,"SESSION NARRATIVE: Indicate medically necessary service(s) provided. If client/collateral present, also indicate participant(s) response to service(s).",,,
+goal,Goal for this Service:,,,
+response,Response:,,accept,0.0
+riskofharm_notes,Explain (Risk of Harm),,,
+documentation,Data,,,
+stages_of_change,Stages of Change,,accept,0.0
+suggestions,Suggestions & Recommendations,,,
+goals,Goal(s),,accept,0.0
+interventions_response,Interventions & Response,,accept,0.0
+risks,Risk(s) Identified,,,
+response,Client's/Other's response and insights to provider's intervention and recommendations,,,
+narrative,Narrative,,accept,0.0
+narrative,Narrative,,accept,0.0
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+service,Service,,accept,0.0
+coordinated_services,Waiver and Non-Waiver Services: List of waiver and non-waiver services reviewed and coordinated in this session.,,,
+satisfaction,Satisfaction: A client quote or other indicator of the client or guardian's report of satisfaction or dissatisfaction with the services coordinated during this session.,,,
+psych_chief_complaint,Today's Chief Complaint/Reason for Visit,,,
+psych_side_effects,Side Effects - Specify,,,
+psych_illness,General History of Present Illness - Narrative,,,
+psych_review_systems_comments,Review of Systems & Active Medical Problems- Comments,,,
+psych_medical_history,Past Psychiatric/Medical History including Past Medication Trials,,,
+psych_family_history,Family History,,accept,0.0
+psych_social_history,Social History,,accept,0.0
+psych_substance_use_history,Substance Use History,,accept,0.0
+psych_mental_status_comments,"Mental status exam additional comments, Descriptions",,,
+psych_plan,Plan,,accept,0.0
+psych_medication_information_education,Medication Information and Education,,accept,0.0
+psych_psychosocial_environmental_other_factors,"Psychosocial, Environmental, and Other Factors - Comments",,accept,0.0
+purpose_text,,,,
+activity_text,,,,
+response_text,,,,
+overall_outcome_text,,,,
+skills_text,"Reason for visit, what skills, tools, and techniques were reviewed with the client and how do those relate to the client's treatment goal? *",,,
+quote_text,"Using a client quote,what was the client's response to today's session *",,,
+progress_text,What is the provider's perspective on the client's progress and engagement in this session? *,,,
+act_progress,"Movement toward treatment plan objectives by (include Individual's perception of services, supports and/or treatment and progress toward goals)",,,
+act_staff_intervention,"Staff intervention (i.e. modality, EBP, assignment of homework, etc.)",,,
+act_individual_response,Individual's Response to Intervention,,,
+individual_response,Individual's Response to Intervention,,,
+problem_text,Problem,,accept,0.0
+intervention_text,Intervention,,accept,0.0
+evaluation_text,Evaluation,,accept,0.0
+Description,Description of Crisis,,,
+Client_Coping,Client's Coping Skills Used to Reduce Crisis,,,
+Community,Community Resources Used/Accessed,,,
+goals,Goals Addressed,,,
+response,Participation/Response,,,
+observation,Staff Observations and Assessment,,,
+response,Client Response,,,
+treatment_provided,Treatment provided (Document treatment and client outcome during session):,,,
+treatment_goals,Progress toward Treatment Goals (Document progress toward this treatment goal):,,,
+suicidal_ideation_text,,,,
+homicidal_ideation_text,,,,
+community_resources,Referral to Community Resources:,,,
+contact_with_caregiver,Contact with Caregiver:,,accept,0.0
+coordination_of_services_text,,,,
+details_of_contact,Details of Contact,,accept,0.0
+specific_interventions,"Specific interventions provided by clinician and targeted actions taken, based on curriculum used, to educate or practice skills to support the consumer toward achieving the identified service plan goal/objective focused on during the session.",,,
+member,"Member (and family, when applicable) response to the session or intervention (what did the member do in session?):",,,
+needs,"Any new needs, goals, and/or objectives identified during session or service:",,,
+any_new_needs,"Any new needs, goals, or objectives identified during services:",,,
+progress_barriers,Progress or Barriers made towards goals and/or objectives:,,,
+specific_activites,"Specific activities performed by Case Manager on behalf of the client/family AND client (and family, when applicable) response to the services (What client did and said during session)",,,
+specific_interventions,"Specific interventions provided by clinician and targeted actions taken, based on curriculum used, to educate or practice skills to support the consumer toward achieving the identified service plan goal/objective focused on during the session.",,,
+progress_barriers,"Progress, or barriers to progress, made in treatment as it relates to the goals and/or objectives, as evidenced by:",,,
+any_new_needs,"Any new needs, goals, and/or objectives identified during session or service:",,,
+specific_interventions,"Specific interventions provided by peer and targeted actions taken to support, assist, model, or mentor the consumer toward achieving the identified service plan goal/objective focused on during the session",,,
+progress_barriers,"Progress, or barriers to progress, made in treatment as it relates to the goals and/or objectives, as evidenced by:",,,
+any_new_needs,"Any new needs, goals, and/or objectives identified during session or service:",,,
+act_intervention,Content / Intervention and Progress,,,
+cm_intervention,Content / Intervention and Progress,,,
+group_response,Response to Group,,accept,0.0
+progress_intervention,Content / Intervention and Progress,,,
+summary_of_treatment_goals,Summary of treatment goals / objectives / interventions addressed with this contact,,,
+interventions_methods,Intervention(s) / Method(s) Details,,,
+response_progress,Response to Intervention / Progress Toward Outcomes and Objectives,,,
+summary_of_treatment,Summary of treatment / goals / objectives / interventions addressed with this visit,,,
+action_plan,Action Plan - 1,,,
+intervention_text,Intervention:,,accept,0.0
+response_text,Response:,,accept,0.0
+progress_text,Progress:,,accept,0.0
+additional,Additional Details about Contact:,,,
+field_notes,"Field Notes (Client Concerns, Provider Intervention, Response):",,,
+new_interventions,The following new Interventions will be implemented: (when there are new interventions):,,,
+brief_narrative,Brief Narrative:,,accept,0.0
+collateral_contacttb,Collateral Contact,,,
+GoalTB,Client Goal Addressed,,,
+InterventionTB,Staff Intervention,,,
+ResponseTB,Client Response to Intervention,,,
+PlanTB,Plan (What are the next Steps):,,,
+GoalTB,Client Goal Addressed,,,
+InterventionTB,Staff Intervention,,,
+ResponseTB,Client Response to Intervention,,,
+PlanTB,Plan (What are the next Steps):,,,
+GoalTB,Client Goal Addressed (FACE TO FACE ONLY),,,
+InterventionTB,Staff Intervention (FACE TO FACE ONLY),,,
+ResponseTB,Client Response to Intervention (FACE TO FACE ONLY),,,
+PlanTB,Plan (What are the next Steps):,,,
+GoalTB,Client Goal Addressed,,,
+InterventionTB,Staff Intervention,,,
+ResponseTB,Client Response to Intervention,,,
+PlanTB,Plan (What are the next Steps):,,,
+others_presenttxt,,,,
+additional_comments,Additional Comments:,,accept,0.0
+add_commentstwo,Additional Comments:,,,
+add_commsthree,Additional Comments:,,,
+progclient_response,Progress/Client Response to Intervention:,,,
+desc_activitytxt,Describe Specific Activity,,,
+relevant_info,Relevant New Information Provided About the Individual Since Last Contact (How did strategies work from the previous visit?) Joint Plan for Today's Visit,,,
+intervention_comments,Intervention Comments. What was observed/practiced today?,,,
+indiv_response,Individual Response to Interventions/Techniques Used. Routine Caregiver's Reflection to Intervention/Techniques Used.,,,
+strengths,"Strengths, Needs, Areas of Growth and/or Feedback Provided to Routine Caregiver.",,,
+desc_progress,Describe Progress or Lack of Progress,,,
+follow_up,Follow Up Plan,,,
+response_interactions, Response/Interactions (includes therapist's interactions),,,
+additional_comments_oberservations,Additional Comments/Observations,,,
+response_intervention,Response/Interactions,,,
+comments_oberservations,Additional Comments/Observations,,,
+description_text,,,,
+recommendations_text,,,,
+followup_text,,,,
+narrative,סיכום פגישה,,,
+situation,Situation,,accept,0.0
+response,Client Response,,,
+narrative_text,Narrative,,accept,0.0
+narrative,Activity Narrative,,,
+next_appointment,Next Appointment,,accept,0.0
+notes_tb,Notes,,accept,0.0
+summary_textbox,SOAP Note,,,
+summary_textbox,,,,
+problems_textbox,,,,
+event_text,,,,
+intervention_text, ,,,
+hide_PLAN_header, ,,,
+hide_TREATMENT_header, ,,,
+hide_ASSESSMENT_header, ,,,
+reason,Reason for Contact *,,,
+description,Description of Service,,,
+situation,Situation,,accept,0.0
+response,Client Response,,,
+response,Client Response to Intervention,,,
+response,Client Response to Intervention,,,
+therapeutic_intervnetions,Therapeutic Interventions Addressed from ISP,,,
+response,Response to,,accept,0.0
+individual_client_information,Individual Client Information,,accept,0.0
+new_issues,New Issue(s) Presented Today,,,
+attended_text,Who attended this session?,,,
+concerns_text,,,,
+response,Consumer's response to the session:,,,
+barriers,Barriers to Discharge,,,
+family,Have any family or other support sessions been conducted or scheduled? Why or why not?,,,
+frequency_text,"If yes, please note the change in frequency of services and the reason for the change.",,,
+levelofcare_text,"If yes, please note the change in the Level of Care and the reason for the change.",,,
+concerns_text,,,,
+response,Consumer's response to the session:,,,
+barriers,Barriers to Discharge,,,
+family,Have any family or other support sessions been conducted or scheduled? Why or why not?,,,
+frequency_text,"If yes, please note the change in frequency of services and the reason for the change.",,,
+levelofcare_text,"If yes, please note the change in the Level of Care and the reason for the change.",,,
+intervention_summary,"What client said, intervention, and summary of session:",,,
+response_intervention,Client response to intervention:,,,
+assigned_homework,"Assigned homework, action steps, or comments on plan:",,,
+problem,Problem,,accept,0.0
+goal_short_term_long_term,Goal (short/long term),,accept,0.0
+0bjective_steps_to_goal,Objective (steps to goal),,,
+intervention_modality,Intervention/Modality,,accept,0.0
+response,Response,,accept,0.0
+response,Response,,accept,0.0
+identifying_data,Identifying Data,,accept,0.0
+hpi,History Of Present Illness,,,
+past_psychiatric_history,Past Psychiatric History,,accept,0.0
+family_psychiatric_history,Family Psychiatric History,,accept,0.0
+medical_surgical_history,Medical/Surgical History,,accept,0.0
+substance_use_history,Substance Use History,,accept,0.0
+psychosocial_legal_history,Psychosocial/Legal History,,accept,0.0
+birth_development_milestones,Birth and Development Milestones,,accept,0.0
+mental_exam_exam,Mental Status Examination,,,
+treatment_recommendations,Treatment Recommendations,,accept,0.0
+narrative,סיכום פגישה,,,
+dap_data_text,Data,,accept,0.0
+dap_assessment_text,Assessment,,accept,0.0
+dap_plan_text,Plan,,accept,0.0
+narrative,Narrative,,accept,0.0
+response_outcome,Response/Outcome*,,accept,0.0
+parties_txt,,,,
+info_txt,,,,
+mental_status,Mental Status,,accept,0.0
+presenting_issues,"Today's Presenting Issues, Interventions Provided, Response to Intervention",,,
+con_sat_text,,,,
+focus_text,,,,
+factors_text,Precipitating Factors,,,
+maladaptive_text,,,,
+session_text,,,,
+additional_text,,,,
+spoke_to,Spoke To,,accept,0.0
+call_information,Call Information,,accept,0.0
+intervention_text,Therapeutic Intervention Provided,,,
+response_text,Client Response to Intervention/Progress Towards Goals and Objectives,,,
+note_text,Note,,accept,0.0
+narrative,סיכום שיחה קצרה,,,
+purpose,PURPOSE,,accept,0.0
+objective,Note Address Which PCRP Objective,,,
+details,Describe details of the case management service,,,
+explain_linkage,Explain linkage to services,,,
+observations,Clinical Observations,,,
+responses,Client Responses,,,
+timeline,Timelines for Next Service,,,
+describe_text,Describe details of employment service,,,
+clincial_text,Clinical Observations,,,
+response_text,Client Responses,,,
+progress_text,Progress Towards Recovery Plan Objectives,,,
+timeline_text,Timelines for Next Service,,,
+actions_text,What actions should the individual complete before next service?,,,
+behavioral_desc,Behavioral description of the Presenting Problem or description of New Issue(s) Presented today,,,
+objective,Note Address Which PCRP Objective,,,
+details,Describe details of PSR/IMR service,,,
+observations,Clinical Observations,,,
+responses,Client Responses,,,
+timeline,Timelines for Next Service,,,
+description,Description of Behavior(s),,,
+service,Describe details of employment service,,,
+details,Details of Follow Up/Admission,,,
+strengths,Identify Needs and Strengths of client,,,
+details,Describe details of Peer Specialist Service,,,
+response,Individual Responses to service provided,,,
+timeline,Timeline for Next Service,,,
+interventiontxt,,,,
+responsetxt,,,,
+plantxt,,,,
+psych_history_present_illness,"HPI: History of Present Illness: (Elements: Location, Quality, Severity, Duration, Timing, Content, Modifying Factors, Associated Signs / Sx)",,,
+psych_identifying_information,Identifying Information:,,accept,0.0
+psych_chief_complaint,Chief Complaint,,accept,0.0
+psych_developmental_history,Developmental History,,accept,0.0
+psych_medical_history,Medical History,,accept,0.0
+psych_family_history,Family Psychiatric History,,,
+psych_client_history,Client Psychiatric History,,,
+psych_social_history,Social History,,accept,0.0
+psych_review_systems,Review of Systems,,accept,0.0
+psych_mental_exam,Mental Status Exam,,,
+psych_assessmentplan,Assessment/Plan,,,
+desc_distresstxt,,,,
+w_triggerstxt,,,,
+plantxt,,,,
+intervention_activity,Intervention Activity,,accept,0.0
+effectiveness_outcome,Effectiveness / Outcome,,accept,0.0
+behavior,BEHAVIOR,,accept,0.0
+plan_revisions,Plan Revisions,,accept,0.0
+goals_behaviors,Goals/Behaviors,,accept,0.0
+purpose,Purpose,,accept,0.0
+inteventions,Interventions,,,
+impression,Clinical Impression,,,
+purpose,Purpose,,accept,0.0
+goals,Goals,,accept,0.0
+course,Course of Treatment/Action,,,
+intervention_text,Intervention (Interaction that occurred during service delivery and how it relates to plan of care),,,
+response_text,Response to today's intervention / changes in condition,,,
+interventions_during_todays_session,Interventions during today's session,,accept,0.0
+not_applicable_explain,Explain Not Applicable answer from previous question,,,
+service_recommendation_plan,Service Recommendation / Plan,,accept,0.0
+additional_information_and_comments,Additional Information or Comments,,accept,0.0
+interventionstb,"Describe interventions used, treatment goals addressed from the ISP (treatment plan) and client's response to intervention:",,,
+dangertootherstb,Suicidality / Danger to Others:,,,
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,,,
+Progresstextbox,Progress on treatment plan (ISP) goals since last visit:*,,,
+Itemstextbox,Items addressed today which are on the treatment plan (ISP)?,,,
+Interventionstextbox,Interventions used and client's response to treatment:,,,
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,,,
+Suicidalitytextbox,Suicidality / Danger to Others:,,,
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,,,
+Progresstextbox,Progress on goals since last visit:,,,
+Interventionstextbox,"Interventions used and manner of delivery, including treatment goals addressed on ISP and client's response to intervention:",,,
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,,,
+Suicidalitytextbox,"Suicidality / Danger to Others: If suicidality / danger to others present, complete a Risk Assessment service. If not clinically relevant, put None Reported.",,,
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):*,,,
+Progresstextbox,Progress on goals since last visit:,,,
+Itemstextbox,What items from the treatment plan (ISP) were addressed today?,,,
+Interventionstextbox,"Interventions used and manner of delivery, including treatment goals addressed and client's response:",,,
+Suicidalitytextbox,Suicidality / Danger to Others:,,,
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,,,
+Progresstextbox,Progress on goals since last visit:,,,
+Itemstextbox,Goals addressed from ISP (treatment plan) today:,,,
+Interventionstextbox,"Interventions used, manner of delivery, and client's response:",,,
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,,,
+Suicidalitytextbox,Suicidality / Danger to Others:,,,
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,,,
+victor_service,Service,,accept,0.0
+victor_next_steps,Next Steps,,accept,0.0
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+lastservice,Plan from Last Service,,,
+scope,Scope of Service/Interventions,,,
+response,Client Response to Interventions,,,
+Narrative_text,Narrative,,accept,0.0
+purpose,Purpose,,accept,0.0
+note,Note,,accept,0.0
+followup,Follow Up Task,,,
+documentation_text,,,,
+intervention_text,,,,
+response_text,,,,
+progress_text,,,,
+intervention_description_and_narrative,Describe Interventions Delivered:,,,
+patients_response_interventions_delivered,Describe the Patient's Response to Interventions Delivered & Plans for Follow Up:,,,
+crisis_presenting_text,Crisis Presenting Problem,,,
+describe_risk_text,"Describe Risk (ideation, intent, plan, means, attempt, & other applicable details)",,,
+intervention_text,Intervention Description & Narrative:,,,
+patient_response_text,Describe the Patient's Response to Interventions Delivered:,,,
+follow_up_text,"Follow Up, Plan, & Instructions Given to Patient:",,,
+response,Client Response,,,
+observations,Significant Observations,,,
+response,Client Response,,,
+barriers,Barriers to Treatment and Significant Observations,,,
+note,Notes,,accept,0.0
+G_Addressed,Goal Addressed,,,
+S_Changes,Significant changes that have occurred since last visit.,,,
+Intervention_txt,,,,
+C_Reporttxt,,,,
+C_Responsetxt,,,,
+Plan_txt,,,,
+problem,Problem,,accept,0.0
+progress_note,,,,
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+plan_last_service,Plan from Last Service,,accept,0.0
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+plan_last_service,Plan from Last Service,,accept,0.0
+new_issues,New Issue(s)/Stressors/Extraordinary Events Presented Today,,,
+assessment_update,Diagnostic Assessment Update Required?,,,
+brief_mental_status_exam,Brief Mental Status Exam,,accept,0.0
+client_presents_a_danger,Client presents as a danger to,,accept,0.0
+danger_form_of,Danger is in the form of,,accept,0.0
+cm_goals_addressed,Goals Addressed,,accept,0.0
+goals_addressed,Goals Addressed in this Session,,,
+describe,Describe:,,accept,0.0
+comments_text,Comments:,,accept,0.0
+tx_plan_goal,Tx Plan Goal,,accept,0.0
+issue_observation_intervention_response_plan,"Presenting Issues by Client, Observation by Therapist and Clinical Intervention by Therapist:",,,
+more_space_text,Additional information:,,,
+clinical_course,Clinical course of treatment including rationale for today's service,,,
+changes_consumer,Changes in the consumer's condition or situation,,,
+response,Current status and response to treatment,,,
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+cc_note,Progress Note*,,,
+note,Progress Note,,,
+session_objective_text,Session Objective/Intervention for the session:,,,
+session_summary_text,Session summary/brief narrative of session:,,,
+mood_text,Mood/Affect/Behavior:,,,
+assignment_text,Assignment: (What the young person will do before the next session),,,
+educational_text,Educational Component: (What the young person learned),,,
+safety_text,"Safety: (Include any relevant updated information, including update to safety plan, crisis response, de-escalation and/or functional analysis if applicable)",,,
+sa_cc_note,Progress Note,,,
+sa_cm_note,Progress Note,,,
+information_text,New Salient Information provided by client/family:,,,
+goals_text,Goal(s)/Objective(s) focused on in this session:,,,
+interventions_text,Interventions provided and client/family response:,,,
+information_text,New Salient Information provided by client/family:,,,
+goals_text,Goal(s)/Objective(s) focused on in this session:,,,
+interventions_text,Interventions provided and client/family response:,,,
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive patterns or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+issues,"Specific problems(s), issue(s), behavior(s), skill deficits addressed:",,,
+mental,Update on client mental health status and significant life changes:,,,
+effort,Case Manager’s Efforts/Activities:,,,
+progress_since,"Progress Since Last Visit: Progress and Updates Since Last Visit OR If Appointment No Show/Cancelled, MUST Document Follow Up:",,,
+purpose,Purpose of Contact:,,,
+recipient_response,Recipient Response/Plans Toward Goal(s):,,,
+present,Who was present/where encounter took place,,,
+purpose,Purpose (goal/task being addressed),,,
+goal_objective,Goal and Objective being Addressed:,,,
+progress_towards,Progress towards Goals and Objectives:,,,
+subjective,Subjective (Client's description of the problem):,,,
+objective,Objective (Objective observations of the client and problem):,,,
+progress_since,"Progress Since Last Visit: Progress and Updates Since Last Visit OR If Appointment No Show/Cancelled, MUST Document Follow Up:",,,
+goals_objectives,Goals/Objectives from TX Plan Addressed Today:,,,
+response,Recipient Response/Plans Toward Goal(s):,,,
+subjective,Subjective (Client's description of the problem):,,,
+objective,Objective (Objective observations of the client and problem):,,,
+description,Description,,accept,0.0
+response,Response,,accept,0.0
+description,Description,,accept,0.0
+response,Response,,accept,0.0
+effectiveness,Effectiveness,,accept,0.0
+Progress_textbox,Observations Regarding Progress,,,
+Intervention_textbox,Notable Observations/Intervention Comments,,,
+symptoms_problems,Symptoms/Problems Status,,,
+plan_information,"Plan/Additional Information, if applicable",,,
+content_text,,,,
+response_text,,,,
+response_text,,,,
+current_report,Current Report of Functioning or Life Changes:,,,
+appearance_other,"If other appearance, please describe:",,,
+mood_other,"If other mood, please describe:",,,
+affect_other,"If other affect, please describe:",,,
+observations,Observations,,accept,0.0
+safety_details,Safety Plan Response/Details:,,,
+presenting_problems,"Presenting Problem(s), as Indicated by Client/Family:",,,
+curr_report,Current Report of Functioning or Life Changes:,,,
+appearance_other,"If ""Other"", please describe:",,,
+mood_other,"If ""Other"", please describe:",,,
+affect_other,"If ""Other"", please describe:",,,
+observations,Observations,,accept,0.0
+intervention_other,"If ""Other"" please explain:",,,
+progress_other,"If ""Other"" please explain:",,,
+summary_response,Summary/Response of Interventions/Services,,,
+safety_plan,Safety Plan Response/Details:,,,
+scheduled_other,"If ""Other"" please explain:",,,
+current_report,Current Report of Functioning or Life Changes:,,,
+appearance_other,"If other appearance, please describe:",,,
+mood_other,"If other mood, please describe:",,,
+affect_other,"If other affect, please describe:",,,
+observations,Observations,,accept,0.0
+safety_details,Safety Plan Response/Details:,,,
+current_report,Current Report of Functioning or Life Changes:,,,
+appearance_other,"If other appearance, please describe:",,,
+mood_other,"If other mood, please describe:",,,
+affect_other,"If other affect, please describe:",,,
+observations,Observations,,accept,0.0
+safety_details,Safety Plan Response/Details:,,,
+Summary_textbox,,,,
+Interventions_textbox,,,,
+Assessments_textbox,,,,
+Plan_textbox,,,,
+description,Description of Activity/encounter:,,,
+narrative,"Session Narrative: Describe goal, interventions, client’s response, and provider’s next steps to address symptoms, behaviors, conditions, or problems experienced due to the wildfire crisis. Include suicide risk level and current status.	",,,
+riskofharm_notes,Explain (Risk of Harm),,,
+focus,Focus of Session,,,
+assessment_risk,Assessment of Risk,,accept,0.0
+response,Client Voice Response to Intervention/Progress,,,
+description_issues,Description of Current Issues,,,
+C_ManagementNotetxt,,,,
+service_plan_text,,,,
+tcm_service_text,,,,
+service,Service,,accept,0.0
+counseling_interventions,"""Therapeutic Interventions Provided""",,,
+counseling_progress,Description of Service/Progress Towards Goals,,,
+counseling_response,Client's/Other's response and insights to provider's intervention and recommendations,,,
+counseling_plan,Additional Information/Plan (if applicable),,,
+tbs_progress,Description of Service/Progress Towards Goals,,,
+tbs_intervention,Client's/Other's response and insights to provider's intervention and recommendations,,,
+cpst_progress,Description of Service/Progress Towards Goals,,,
+cpst_intervention,Client's/Other's response and insights to provider's intervention and recommendations,,,
+purpose,Purpose,,accept,0.0
+Response,Response,,accept,0.0
+relevant_text,Relevant issues reported,,,
+objectives_text,Person's Report of Progress Towards Goals / Objectives Since Last Session,,,
+narrative_text,Narrative/Interventions,,,
+Narrative_text,,,,
+narrative_text,Narrative,,accept,0.0
+situation_text,"SITUATION - Current status, functioning, active symptoms",,,
+intervention_text,INTERVENTION - Intervention used to address the symptoms*,,,
+response_text,RESPONSE - Response of the Person to the intervention,,,
+Narrative_text,,,,
+purposeofmeeting,Purpose of Meeting:,,,
+response,Client Response:,,,
+purpose_text,PURPOSE: Directly relates to community support objective from IPC / ISA / One Plan.,,,
+activity_text,ACTIVITY: Describe the activity that relates to the service intervention. ,,,
+other_text,Other Evidence Based Practice/promising practice (not otherwise listed):,,,
+response_text,RESPONSE: Individuals response to the service activity.,,,
+overall_text,OVERALL OUTCOME: Progress toward objective & plan for next service.*,,,
+chief_complaint,Subjective/Chief Concern,,,
+medication_effects,Medication Adverse Effects,,,
+review_of_systems,Review of Systems/Medical Issues,,,
+objective,Objective,,accept,0.0
+psych_assessment,Assessment,,accept,0.0
+medication_risks_benefits,Medication Risks and Benefits,,accept,0.0
+treatment_plan,Plan,,accept,0.0
+purpose_text,,,,
+activity_text,,,,
+response_text,,,,
+overall_outcome_text,,,,
+individual_response,Individual's Response to Intervention,,,
+talked_about,What we talked about,,,
+plans,Plans (Who will do what by when?),,,
+summary_text,,,,
+response,Client Response and Participation,,,
+planning,Discharge Planning/Follow Up,,,
+purpose,Overall Purpose,,,
+focus,Focus of Session,,,
+mse,Mental Status Exam,,,
+service,Service and Intervention Narrative,,,
+response,Client Response and Participation,,,
+planning,Discharge Planning/Follow Up,,,
+symptoms_text,Symptoms/Risk Factors,,,
+intervention_text,Intervention,,accept,0.0
+response_text,Client response to intervention,,,
+topicscovered_text,Topics Covered During SUD Treatment,,,
+progress_text,Progress Made Towards Goals,,,
+intervention_text,Intervention for Encounter,,,
+response_text,Client Response to Intervention During Encounter,,,
+Goals,Goals and Objectives Targeted in the Session,,,
+Response,Clients Response or Reaction to Treatment Intervention(s),,,
+Observations,Significant Observations/Observation of Risk to Self or Others,,,
+goals,Goals,,accept,0.0
+intervention_continued,Intervention Continued,,accept,0.0
+Update_Assessment,Update/Assessment,,accept,0.0
+InterventionTB,Intervention,,accept,0.0
+activity_1,Coordination Activity,,,
+activity_2,Coordination Activity,,,
+activity_3,Coordination Activity,,,
+activity_4,Coordination Activity,,,
+purpose_text,Purpose of this intervention,,,
+medical_necessity_text,Medical Necessity,,accept,0.0
+staff_role_text,Staff role,,accept,0.0
+behavior_text,"Participant behavior, affect, response to interventions provided",,,
+next_steps_text,Next steps,,accept,0.0
+comments_text,Comments,,accept,0.0
+clinintervention_progress,Clinical Intervention / Progress Towards Measurable Outcomes,,,
+progress_note,Progress Note,,accept,0.0
+intervension_focus_of_session,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+describe_intervensions_provided,Describe the interventions provided.,,,
+describe_clients_response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+document_the_plan,Document the plan. If there were barriers describe the plan to overcome the barriers.,,,
+plan_from_last_service,Plan from Last Service,,accept,0.0
+employment_education,Employment/education goals addressed in this session,,,
+narrative,Tobacco Cessation Services Provided:,,,
+response,Client response (and family if applicable) to session provided: Prompt client to restate to reflect learning:,,,
+housing_intervention,Content / Intervention and Progress,,,
+peer_intervention,Content / Intervention and Progress,,,
+residential_progress,"Progress (or lack of) towards Treatment Plans, Goals, Objectives addressed by this Progress Note",,,
+residential_assessment_plan,Case Manager's Assessment / Plan of Action,,,
+lincoln_service,Service,,accept,0.0
+lincoln_next_steps,"Next Steps including, but not limited to, planned action steps by the provider or by the beneficiary, collaboration with the beneficiary, collaboration with other provider(s) and any update to the problem list as appropriate.",,,
+summary_text,Summary,,accept,0.0
+additional_summary_text,Additional Summary,,accept,0.0
+psych_assessment_plan,Psych Assessment & Plan,,accept,0.0
+focus,"What was the focus of the session (i.e alleviation of emotional disturbances, reversal or change of maladaptive Patters or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barrier to progress.",,,
+GoalTB,Client Goal Addressed (FACE TO FACE ONLY),,,
+InterventionTB,Staff Intervention (FACE TO FACE ONLY),,,
+ResponseTB,Client Response to Intervention (FACE TO FACE ONLY),,,
+PlanTB,Plan (What are the next Steps):,,,
+NotesTB,Notes:,,accept,0.0
+if_yes,If Yes Specify:,,,
+purpose_of, Purpose of Visit:,,,
+behavioral_obs,Behavioral Observations:,,,
+additional_comments,Additional Comments:,,accept,0.0
+fyes_spec,If Yes Specify:,,,
+findings_planemptytxt,Findings and Plan,,,
+note_topics,Note On Topics Discussed Findings & Plan:,,,
+persons_involved, Persons involved in this event:,,,
+desc_activitytxt,Describe Individualized Activity,,,
+situation_text,Situation,,accept,0.0
+intervention_text,Intervention,,accept,0.0
+response_text,Response,,accept,0.0
+situation,Situation,,accept,0.0
+response,Client Response,,,
+appointment,Next Appointment Date/Time,,,
+situation,Situation,,accept,0.0
+response,Client Response to Intervention,,,
+situation,Situation,,accept,0.0
+stage,List treatment stage,,,
+response,Client Response to Intervention,,,
+referral,Referral,,accept,0.0
+whyreferred,"If referred, please explain why.",,,
+appt,Next Appoint Date/Time,,,
+situation,Situation,,accept,0.0
+next_appointment,Next Appointment Date/Time,,,
+situation,Situation,,accept,0.0
+response,Client Response,,,
+appt,Next Appointment Date/Time,,,
+nature_text,,,,
+men_stat_text,,,,
+req_description_text,,,,
+safetyplan_text,Safety Plan,,,
+response,Response:,,accept,0.0
+response,Client Response,,,
+notes_textbox,Notes:,,accept,0.0
+plan_textbox,Plan:,,accept,0.0
+notes_textbox,Notes:,,accept,0.0
+plan_textbox,Plan:,,accept,0.0
+notes_tb,Notes:,,accept,0.0
+event_text,,,,
+intervention_text, ,,,
+hide_PLAN_header, ,,,
+hide_TREATMENT_header, ,,,
+hide_ASSESSMENT_header, ,,,
+situation,Situation,,accept,0.0
+response,Client Response,,,
+response,Client Response to Intervention,,,
+response,Client Response to Intervention,,,
+response,Client Response to Intervention,,,
+response,Client Response to Intervention,,,
+content_of_contact,Content of Contact,,accept,0.0
+action_taken,Action Taken/Referrals/Additional Needs,,,
+goals_addressed,Goals Addressed,,accept,0.0
+situation_text,,,,
+response_text,,,,
+purpose,Purpose,,accept,0.0
+response,Response,,accept,0.0
+description,Description:,,accept,0.0
+client_response,Client Response to Intervention,,,
+client_intervsummary,"What client said, intervention, and summary of session:",,,
+client_response,Client response to intervention:,,,
+assigned_homework,"Assigned homework, action steps, or comments on plan:",,,
+narrative,Brief Narrative of Session,,,
+living_skills_text,Community Living Skills Note,,,
+socialization_text,Socialization Note,,,
+advocacy_text,Self-Advocacy Note,,,
+supports_text,Developing Natural Supports Note,,,
+sharing_text,Sharing Note,,,
+topics_discussed,Topics Discussed:,,accept,0.0
+narrative,Narrative*,,accept,0.0
+status_text,,,,
+explanation_skills_text,,,,
+explanation_training_text,,,,
+narrative_text,,,,
+explanation_progress_text,,,,
+situation_text,Situation,,accept,0.0
+intervention_text,Intervention,,accept,0.0
+response_text,Response,,accept,0.0
+observations,Observations,,accept,0.0
+response_outcome,Response/Outcome,,accept,0.0
+prescreening_supplement,Prescreening Supplement,,accept,0.0
+narrative,Narrative,,accept,0.0
+focus,"What was the focus of the session (i.e alleviation of emotional disturbances, reversal or change of maladaptive Patters or behaviors, encouragement of personality growth or development)?",,,
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barrier to progress.",,,
+focus_text,,,,
+session_text,Session Notes,,,
+interventions_text,Interventions Used/Response to Interventions*,,,
+progress_text,Progress*,,accept,0.0
+description,Description,,accept,0.0
+response_text,Client Response/Assessment,,,
+desc_education,Describe Education,,,
+clin_obs,Clinical Observations,,,
+client_response,Client Responses,,accept,0.0
+progress_towards,Progress Towards Recovery Plan Objectives,,,
+desc_details,Describe details of housing service,,,
+clin_obs,Clinical Observations,,,
+client_response,Client Responses,,accept,0.0
+progress_towards,Progress Towards Recovery Plan Objectives,,,
+timelines,Timelines for Next Service,,,
+what_actions,What actions should the individual complete before next service?,,,
+additional,Additional progress this session,,,
+additional,Additional progress this session,,,
+other_contact,Other contact,,accept,0.0
+significant_changes_model,My Significant Changes/Needs/Life Events since last review,,,
+progressinterventionrecs,Progress/Intervention/Recommendations/Additional Comments,,,
+client_satisfaction_with_services_comment,Consumer/Parent/Guardian Satisfaction with Services Comment,,,
+Purpose,Purpose of Contact,,,
+Response,Customer Response,,,
+explanation,"Explanation (use direct quotes from Customer, when possible)",,,
+details,Describe details of follow up service,,,
+observations,Clinical Observations,,,
+responses,Individuals Responses,,,
+timeline,Timeline for Next Service,,,
+progress_towards_objectives,Progress towards objectives being addressed,,,
+progress_towards_objectives_being_addressed,Progress towards objectives being addressed,,accept,0.0
+focus_intervention,Focus / Intervention,,accept,0.0
+plan_for_continuing_work,Plan for Continuing Work,,accept,0.0
+effectiveness,Intervention Effectiveness,,,
+outcomes,Describe Outcomes,,,
+information,Session Information,,,
+purpose,Purpose/Problem,,,
+goals,Goals/Actions,,,
+intervention_course,Interventions and Course of Treatment/Action,,,
+purpose,Purpose/Present,,,
+response,Response,,accept,0.0
+purpose,Purpose/Present,,,
+response,Response,,accept,0.0
+goal,Goal,,accept,0.0
+interventions_plan,Planned Interventions,,accept,0.0
+transition_plan,Transition Plan,,accept,0.0
+focus,Focus of Session,,,
+care_plan,Care Plan,,accept,0.0
+current_service,"Describe current service(s), how the service addressed the beneficiary's behavioral health need (e.g., symptom, condition, diagnosis, and/or risk factors).",,,
+service,"Describe current service(s), how the service addressed the beneficiary's behavioral health need (e.g., symptom, condition, diagnosis, and/or risk factors).",,,
+goal,Goal,,accept,0.0
+transition_plan,Transition Plan,,accept,0.0
+presenting_issues,Today's presenting issues,,,
+safety_plan_comments,Comments,,accept,0.0
+response,Response to Interventions,,,
+Progresstextbox,Progress on treatment plan (ISP) goals since last visit:,,,
+Itemstextbox,Items addressed today which are on the treatment plan (ISP)?,,,
+Interventionstextbox,Interventions used and client's response to treatment:*,,,
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,,,
+Suicidalitytextbox,Suicidality / Danger to Others:,,,
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,,,
+Progresstextbox,Progress on treatment plan (ISP) goals since last visit:,,,
+Itemstextbox,Items addressed today which are on the treatment plan (ISP)?,,,
+Interventionstextbox,Interventions used and client's response to treatment:,,,
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,,,
+Suicidalitytextbox,Suicidality / Danger to Others:,,,
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,,,
+Progresstextbox,Progress on goals since last visit:,,,
+Interventionstextbox,"Describe interventions used and manner of delivery, including treatment goals addressed and client's response:",,,
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,,,
+Suicidalitytextbox,"Suicidality / Danger to Others: If suicidality / danger to others present, complete a Risk Assessment service. If not clinically relevant, put None Reported.",,,
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,,,
+presentingproblemtb,Presenting Problem: (diagnosis and relevant symptoms),,,
+treatmentgoaltb,Goals for treatment: (what do you hope will be different for you),,,
+psychoeducationtb,Psychoeducation provided: (information about diagnosis/effective EBP and expected outcomes),,,
+treatmentbarriertb,"Possible barrier to treatment: (transportation, childcare, ability to follow through etc.)",,,
+plantb,Plan: (Next steps for starting therapy services),,,
+Narrative_text,Narrative,,accept,0.0
+narrative,Narrative,,accept,0.0
+health,Health & Safety Issues,,,
+coordinating,Linking & Coordinating,,,
+purpose_of_session,Purpose of Session:,,accept,0.0
+summary_of_session,Summary of Session (What interventions were utilized and why were they necessary?):,,,
+service,Service,,accept,0.0
+during_service,What Occurred during this service event,,,
+behavior,Describe any pertinent event or behavior relating to the individual which occurs during the provision of this service,,,
+progress_text,,,,
+follow_up,What follow up is needed,,,
+scope,Scope of Service/Interventions,,,
+response,Client Response to Interventions,,,
+skills,Skills taught/reinforced/materials used,,,
+response,Response to Intervention,,,
+BehaviorText,,,,
+InterventionText,,,,
+ResponseText,,,,
+PlanText,,,,
+AdditionalInfoText,,,,
+ParticipantsText,,,,
+PhysicalLocationProviderText,,,,
+PhysicalLocationClientText,,,,
+WhoInSessionCheckboxText,,,,
+OtherText,,,,
+clinical_intervention,Clinical Intervention / Progress Toward Measurable Outcome,,,
+homework_plan,Homework/Plan for Next Session,,,
+focus_session,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",,,
+client_response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",,,
+plan_document,Document the plan. If there were barriers describe the plan to overcome the barriers.,,,
+intervention_description_and_narrative,Describe Interventions Delivered:,,,
+patients_response_interventions_delivered,Describe the Patient's Response to Interventions Delivered & Plans for Follow Up:,,,

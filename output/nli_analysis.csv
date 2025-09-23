@@ -1,0 +1,1328 @@
+field_key,field_title,nli_axis,nli_axis_label
+meeting_summary,סיכום הביקור,-0.22250736498309065,Partial Contradiction
+Patient_States,Patient states,0.7407148490141565,Exact Match
+Comments_Concerns,Comments or concerns about UDS,0.3598178108009173,Weak Match
+Narrative_Summary,Narrative summary,0.4396834891329161,Weak Match
+purpose,Purpose of Contact,0.340272506686516,Weak Match
+response,Client Response,0.47505061458740855,Weak Match
+explanation,"Explanation (use direct quotes from Client, when possible)",0.4346622615186819,Weak Match
+observed_reported_mood_affect_behavior,"Functioning - Observed or Reported (may include mood, affect, behavior, cognitive functioning, etc.)",0.7896760403628726,Exact Match
+new_issues,New Issue(s) Presented Today,0.6790029485963532,Exact Match
+talked_about,What we talked about,0.859373841961415,Exact Match
+describe_text,Describe:,0.06272406626905597,Uncertain
+additionalcommentstext,Comments:,-0.2053399602452988,Partial Contradiction
+clinical_course,Clinical course of treatment including rationale for today's service,0.3510726610750421,Weak Match
+changes_consumer,Changes in the consumer's condition or situation,0.57540008147496,Weak Match
+response,Current status and response to treatment,0.4244457121850412,Weak Match
+chief,Chief Complaint,0.28565952805612027,Weak Match
+history,History of Present Illness (details if applicable),0.5355743277514494,Weak Match
+treatment_history,Past Psychiatric Treatment History Including Medications and their Effects,0.5277649208221001,Weak Match
+prev_meds,Medications Previously Tried (if any),0.24449042207615343,Weak Match
+substance_abuse,Past and Current Substances Abuse,0.7936677701749244,Exact Match
+child_development,Childhood Development (Children Only),0.5804498666429246,Weak Match
+issues,Personal/Family/Social History/Legal Issues,0.5605027063526321,Weak Match
+fam_history,Family History (Biological Loading),0.48502496719426547,Weak Match
+reactions,Allergies/Adverse Reactions,0.3697739788025369,Weak Match
+med_history,Medical History,0.685545804979741,Exact Match
+current_meds,Current Medications,0.7721140060167265,Exact Match
+contraceptive,LMP and Contraceptive Method,0.43190707930353195,Weak Match
+height,Height and Weight:,0.40050884544094467,Weak Match
+appearance,Appearance,0.5590020389978863,Weak Match
+eye_contact,Eye Contact,0.6855967375155733,Exact Match
+attention,Attention Span,0.34710933576298225,Weak Match
+psych_activity,Psychomotor Activity,0.29515982134643576,Weak Match
+content,Thought Content,0.45264127644888047,Weak Match
+mood,Mood,0.4440692221442519,Weak Match
+affect,Affect,0.730962608722372,Exact Match
+associations,Associations,0.565677081813906,Weak Match
+manner,Manner of Relating to Examiner,0.2548739637907717,Weak Match
+therapy_recs,Therapeutic Recommendations,0.5378591879020389,Weak Match
+clin_interpretations,Clinical Interpretation,0.41513244062731225,Weak Match
+narrative,Narrative,0.4179504607687354,Weak Match
+information_text,New Salient Information provided by client/family:,0.0015860247857154008,Uncertain
+goals_text,Goal(s)/Objective(s) focused on in this session:,0.10416375933622941,Uncertain
+interventions_text,Interventions provided and client/family response:,-0.03739344904924946,Uncertain
+therapeutic_text,Narrative Description,-0.4784200639287349,Strong Contradiction
+progress_text, Description of progress/client response,0.3872236771712868,Weak Match
+therapeutic_text,Narrative Description,-0.4784200639287349,Strong Contradiction
+progress_text,Description of progress/client response,0.3872236771712868,Weak Match
+info,Session Info,0.696607478946454,Exact Match
+description,Description,0.5106881388525633,Weak Match
+response,Response,0.4337319789906334,Weak Match
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.19569478427555034,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.21383973451185248,Weak Match
+info,Session Objective/Notes,0.13789554949508884,Uncertain
+summary_contact,Summary of Contact,0.6678348694460885,Exact Match
+summary_text,"Summary: Goals, Objectives, Interventions Delivered & Consumer Response",0.4629477660331501,Weak Match
+need,Need for or goal of intervention,0.5562479880091058,Weak Match
+response,Response to Intervention,0.5154228247648188,Weak Match
+sud_symptoms,Symptoms/Problems Status (incl. changes in Circumstances/Stressors),-0.29655449769078057,Strong Contradiction
+sud_interventions,Clinical Intervention(s)/Client Response(s)/Progress toward Goal(s),-0.20092644965802436,Partial Contradiction
+sud_plan,"Plan/Additional Information, if applicable?",-0.3394809622717654,Strong Contradiction
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development?)",0.1922415950581634,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals, and strengths. If progress is not being made, describe reasons and barriers to progress.",0.17178821039287992,Uncertain
+lastservice,Plan from Last Service.,0.4065014111089915,Weak Match
+presenting_problems,"Presenting Problem(s), as Indicated by Client/Family:",0.6396604307698782,Exact Match
+relevant_issues,Relevant Medical Issues,0.6941677839490605,Exact Match
+explain_txt1,"Explain (Include dates, means, rescue)",-0.10230618379567372,Uncertain
+explain_txt2,"Explain (Include dates, means, rescue)",-0.13105133123062704,Uncertain
+explain_txt3,"Explain (Include dates, means, rescue)",-0.13289551633108956,Uncertain
+explain_txt4,"Explain (Include dates, means, rescue)",-0.1548248451577148,Partial Contradiction
+substance_use,"Substance use concerns, relevant history and/or treatment.",0.5511562205380511,Weak Match
+if_other2,"If ""Other"", please describe:",-0.08174756404218636,Uncertain
+if_other3,"If ""Other"", please describe:",-0.05310324551495861,Uncertain
+if_other4,"If ""Other"", please describe:",-0.08931391674214748,Uncertain
+observations,Observations,0.4937421132846334,Weak Match
+if_other5,"If ""Other"", please describe:",-0.05417173540364459,Uncertain
+if_other6,"If ""Other"", please describe:",-0.11155518676403517,Uncertain
+if_other7,"If ""Other"", please describe:",-0.05304605522003526,Uncertain
+summary_response,Summary/Response of Intervention/Services,0.20438316129575596,Weak Match
+justification,Justification for the diversion or hospital recommendation:,0.6144686680240984,Exact Match
+Mental_Status_textbox,,-0.17918973345034253,Partial Contradiction
+Interventions_textbox,,-0.18589909678867858,Partial Contradiction
+Progress_toward_goals_textbox,,-0.15252470452402334,Partial Contradiction
+Action_plan_textbox,,-0.17785404817064035,Partial Contradiction
+goal,"GOAL FOR THIS SERVICE: Indicate a specific, observable and/or measurable goal(s) related to the client’s mental health needs.",0.371114648028412,Weak Match
+narrative,"SESSION NARRATIVE: Indicate medically necessary service(s) provided. If client/collateral present, also indicate participant(s) response to service(s).",0.45264960266012444,Weak Match
+indvpresent,INDIVIDUALS PRESENT/CONTACTED:,0.1686148532679175,Uncertain
+clientprez,CLIENT PRESENTATION:,0.20944376729996925,Weak Match
+servicegoal,GOAL FOR THIS SERVICE:,0.526955913412832,Weak Match
+functionalimpairments,FUNCTIONAL IMPAIRMENTS:,0.5981275018326013,Weak Match
+response,RESPONSE:,0.5968396376476853,Weak Match
+first_began,"When you first began services, you were (describe symptoms, housing, medical needs, family/social situations, etc.)",0.5606405518747044,Weak Match
+goals_progress,Here are your goals and the progress you've made and some gains you've achieved.,0.6809840046697225,Exact Match
+details_services,Details and Services at other agencies.,0.4998595856693825,Weak Match
+presenting_issue,Presenting Issue,0.6587872583102706,Exact Match
+additional_intervention,Additional Care Manager Intervention Provided During the Session,0.8239768324396707,Exact Match
+response,Client response to interventions performed,0.4849437574565196,Weak Match
+progress_towards_goal,Progress towards goals,0.8141727215288097,Exact Match
+additional_progress,Additional Progress towards goals to be addressed during the interim or at next session,0.9040230640664756,Exact Match
+focus_of_session,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.4144507629758732,Weak Match
+interventions_provided,Describe the interventions provided.,0.8227078088330094,Exact Match
+clients_response_to_intervention,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.757510438508751,Exact Match
+document_plan,Document the plan. If there were barriers describe the plan to overcome the barriers.,0.8859278989142094,Exact Match
+desribe_reason_text,,-0.03543630575282915,Uncertain
+summary_intervention_text,,-0.15005627941002983,Partial Contradiction
+summary_contact,Summary of Contact,0.6678348694460885,Exact Match
+description,"Description of COS Service, Future Plans and Recommendations",0.4397650170258854,Weak Match
+narrative,סיכום פגישה,0.09341445282982676,Uncertain
+barriers,Barriers to progress:,0.7633485085460676,Exact Match
+narrative,Narrative,0.4179504607687354,Weak Match
+note_text,Note,0.19441926611693985,Uncertain
+note_text,Note,0.19441926611693985,Uncertain
+signature,Signature Field,0.4686068016230354,Weak Match
+purpose_text,,0.044526931057365084,Uncertain
+activity_text,,0.060415094734104925,Uncertain
+response_text,,0.11224399366841716,Uncertain
+overall_outcome_text,,-0.11924152921731743,Uncertain
+purpose_text,,0.044526931057365084,Uncertain
+activity_text,,0.060415094734104925,Uncertain
+response_text,,0.11224399366841716,Uncertain
+overall_outcome_text,,-0.11924152921731743,Uncertain
+purpose_text,,0.044526931057365084,Uncertain
+activity_text,,0.060415094734104925,Uncertain
+response_text,,0.11224399366841716,Uncertain
+overall_outcome_text,,-0.11924152921731743,Uncertain
+comments_text,Comments,0.06269940331186569,Uncertain
+client_comments_text,Client Comments,0.13020828906866597,Uncertain
+health_issues_text,Client Health Issues,0.12359673150737348,Uncertain
+sud_progress,"Movement toward treatment plan objectives by (include Individual's perception of services, supports and/or treatment and progress toward goals)",-0.23616928236705353,Partial Contradiction
+sud_staff_intervention,"Staff intervention (i.e. modality, EBP, assignment of homework, etc.)",-0.28677762569330006,Strong Contradiction
+sud_individual_response,Individual's Response to Intervention,-0.02577625174801757,Uncertain
+summary_text,,0.15341204190503946,Uncertain
+narrative,Narration,0.6174940256595511,Exact Match
+contact,"Collateral Contact (including all participants during the service - family, friends, Law enforcement, other staff): ",0.46164400624345636,Weak Match
+response,Response to Treatment,0.4494286952285561,Weak Match
+focus," What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.19569478427555034,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.21383973451185248,Weak Match
+struggles,Identified Struggles,0.4970732371178377,Weak Match
+group_progress,Group Progress Update,0.6177990785196452,Exact Match
+sleep,Sleep/Appetite,0.1749407615669086,Uncertain
+issues_text,Issues Addressed During Session,-0.021632227763835915,Uncertain
+nextappt_text,Next Appointment Scheduled,-0.06142313676750075,Uncertain
+group,Group Progress Update,0.4243677257641063,Weak Match
+emotional,"Emotional, Behavioral or Cognitive Conditions and Complications",0.20282680535021913,Weak Match
+relapse,Relapse/Continued Use Potential,0.2593117383394046,Weak Match
+recovery,Recovery Environment,0.29005424363740623,Weak Match
+sleep,Sleep/Appetite,0.1749407615669086,Uncertain
+Observations,Observations:,0.6257315070202448,Exact Match
+Updates,Updates:,0.735245137323106,Exact Match
+Response,Client Response to Interventions:,0.5551490703585202,Weak Match
+sessioncontent,Session Content,0.48888069444910626,Weak Match
+planrec,Plan/Recommendations,0.12538260252206698,Uncertain
+treatment_provided,Treatment provided (Document treatment and client outcome during session):,0.8254844264117066,Exact Match
+treatment_goals,Progress toward Treatment Goals (Document progress toward this treatment goal):,0.45066487809709077,Weak Match
+suicidal_ideation_text,Suicidal Ideation,0.13021221831946764,Uncertain
+homicidal_ideation_text,Homicidal Ideation,0.15334087306474486,Uncertain
+community_resources,Referral to Community Resources:,0.5461045850213885,Weak Match
+contact_with_caregiver,Contact with Caregiver:,0.8080747267410252,Exact Match
+coordination_of_services_text,Coordination of Services,0.05592874550416944,Uncertain
+description_of_training,"Description of Training/Intervention: (ex. Supporting, demonstrating, engaging, role-playing, empowering)",0.411703028499679,Weak Match
+narrative,Narrative,0.4179504607687354,Weak Match
+focus_of_session,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.4144507629758732,Weak Match
+interventions_provided,Describe the interventions provided.,0.8227078088330094,Exact Match
+clients_response_to_intervention,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.757510438508751,Exact Match
+document_plan,Document the plan. If there were barriers describe the plan to overcome the barriers.,0.8859278989142094,Exact Match
+reson_referral,Reason for Referral/Interval History,0.16101200172861696,Uncertain
+intervention_text,Intervention,0.10011308254374932,Uncertain
+response_text,Response,0.1496997665430549,Uncertain
+problems_issues,"Specific problems(s), issue(s), behavior(s), skill deficits addressed:",0.42639550524842684,Weak Match
+mh_update,Update on client mental health status and significant life changes:,0.1967694835563797,Uncertain
+cm_efforts,Case Manager’s Efforts/Activities:,0.24759627291751043,Weak Match
+specific_interventions,"Specific interventions provided by peer and targeted actions taken to support, assist, model, or mentor the family toward achieving the identified service plan goal/objective focused on during the session.",0.6976708543867777,Exact Match
+progress_barriers,"Progress, or barriers to progress, made in treatment as it relates to the goals and/or objectives, as evidenced by:",0.3092295522487955,Weak Match
+any_new_needs,"Any new needs, goals, and/or objectives identified during session or service",0.8729480016223093,Exact Match
+specific_interventions,Specific interventions provided by clinician and targeted actions taken to move the consumer toward achieving the identified service plan goal objective focused on during the session:,0.777143836422611,Exact Match
+progress_barriers,"Progress, or barriers to progress, made in treatment as it relates to the goals and/or objectives, as evidenced by:",0.3092295522487955,Weak Match
+any_new_needs,"Any new needs, goals, and/or objectives identified during session or service:",0.8827321831954072,Exact Match
+services_provided,Services Provided:,0.8035744404451313,Exact Match
+client_response,Client response (and family if applicable) to session provided: Prompt client to restate to reflect learning:,0.5150299590571031,Weak Match
+content_intervention_progress,Content / Intervention and Progress,0.6756646813873322,Exact Match
+intervention_detail,Intervention Details,0.5583099010026537,Weak Match
+intervention_details,Intervention Details,0.6513820483945606,Exact Match
+plan_additional_information,Plan / Additional Information (Indicate action plan between sessions/meetings),0.6716504857110984,Exact Match
+description_text,"Description of COS Service, Future Plans and Recommendations",0.4233683677632065,Weak Match
+summary_text,Summary,0.27444014355922025,Weak Match
+additional_summary_text,Additional Summary,0.3236411938458984,Weak Match
+next_steps_text,Next Steps/Plan,0.09367857604472511,Uncertain
+narrative,Narrative,0.4179504607687354,Weak Match
+GoalTB,Client Goal Addressed,0.014630791043710218,Uncertain
+InterventionTB,Staff Intervention,0.24201238628194646,Weak Match
+ResponseTB,Client Response to Intervention,0.30570707976899375,Weak Match
+PlanTB,Plan (What are the next Steps):,0.06612195825710811,Uncertain
+NotesTB,Notes:,0.3039075903425143,Weak Match
+barriers_addressed,Barriers Addressed,0.8858604503498491,Exact Match
+interactive_txt,Interactive Teaching,-0.06370227187357236,Uncertain
+advocate_txt,Advocate,-0.005738786521472674,Uncertain
+behavioral_txt,Behavioral Rehearsal,-0.294242917533746,Strong Contradiction
+linking_txt,Linking,0.026786702081348906,Uncertain
+material_txt,Material Review And Repetition,-0.21467372757927328,Partial Contradiction
+modeling_txt,Modeling,-0.019062659393282225,Uncertain
+monitoring_txt,Monitoring,-0.004330524476190797,Uncertain
+other_txt,Other,-0.001527434549225492,Uncertain
+problem_txt,Problem Solving,-0.16626572777835802,Partial Contradiction
+prompting_txt,Prompting,-0.010802766435587917,Uncertain
+referral_txt,Referral,-0.010435797164632743,Uncertain
+reinforcing_txt,Reinforcing,-0.003218114947820407,Uncertain
+roleplay_txt,Role Play,-0.18067960864714835,Partial Contradiction
+worksheets_txt,Worksheets,0.006880523130660418,Uncertain
+session_assessment,Session Assessment,0.5716110613129601,Weak Match
+plan_rec,Plan Recommendation,0.05354795729471376,Uncertain
+response_plan,Response / Plan,0.37371389223417045,Weak Match
+indiv_comments,Individual Comments,0.5275057801413414,Weak Match
+plan_comments,Plan Comments,0.6257914815545033,Exact Match
+response_interactions,Response/Interactions (include discussion regarding any significant events or changes in the life of the person served),0.4259209221236938,Weak Match
+response_interactions,Response/Interactions (include discussion regarding any significant events or changes in the life of the person served),0.4259209221236938,Weak Match
+objective,Objective,0.4291063159331615,Weak Match
+mental_status_exam,Mental Status Exam,0.5851188008763368,Weak Match
+situation,Situation,0.41653281294199473,Weak Match
+next_appointment,Next Appointment Date/Time,0.6787358921050375,Exact Match
+issues,Today's Presenting Issue(s),0.503955369887619,Weak Match
+summary_text,Session Summary,0.3903306085709884,Weak Match
+history,History of Problem and any recent Stressors,0.6624895122006007,Exact Match
+goal,What is your immediate goal for treatment?,0.4809403438322948,Weak Match
+long_term,What would you like to see be different in the long term?,0.6468027785943091,Exact Match
+formulation,"Initial Clinical Formulation (Summary of presenting problem, problem history, treatment history, any information that is pertinent to treatment as well as diagnostic impressions)",0.34245822740838655,Weak Match
+soap_note_textbox,SOAP Note,0.07677629408663485,Uncertain
+clinical_impression_assessment_tb,Clinical Impression/Assessment,0.06796999093436758,Uncertain
+comments_tb,Disposition plan,-0.19515554446679026,Partial Contradiction
+notes_tb,Notes:,-0.027959126651972564,Uncertain
+soap_note_textbox,SOAP Note,0.07677629408663485,Uncertain
+client_issues_discussed_textbox,Current Issues Discussed:,0.03994617125127546,Uncertain
+clinical_interventions_used_textbox,Clinical Interventions Used:,0.022099108677126535,Uncertain
+observations_made_textbox,Observations Made of Individual:,-0.24573177911162222,Partial Contradiction
+clinical_assessment_textbox,Clinical Assessment of Issues:,0.04346313996957394,Uncertain
+plan_treatment_textbox,Plan for ongoing treatment or follow up needed:,0.03833894075973096,Uncertain
+update_textbox,Update to individual's personal story,-0.1534446303709393,Partial Contradiction
+response,Client Response to Intervention,0.5065679140937588,Weak Match
+response,Client Response to Intervention,0.5065679140937588,Weak Match
+response,Client Response to Intervention,0.5065679140937588,Weak Match
+situation_text,,0.06689882175694574,Uncertain
+interventions_text,,-0.11298685274018301,Uncertain
+response_text,,0.11224367294659014,Uncertain
+therapeutic_interventions_provided,Therapeutic Interventions Provided,0.8782513860254272,Exact Match
+response_intervention,Response to Intervention/Progress Toward Goals and Objectives,0.1927649104781801,Uncertain
+addional_information_plan,Additional Information/Plan (if applicable),0.6295854994282762,Exact Match
+continued_plan,Continued Additional Information/Plan (if applicable):,0.26840670774015374,Weak Match
+linkage_text,,0.06532970783691408,Uncertain
+advocacy_text,,-0.10258837498568096,Uncertain
+referral_text,,0.14066899389599918,Uncertain
+monitoring_text,,-0.08305549996611858,Uncertain
+followup_text,,0.10859471764228998,Uncertain
+needs_text,,-0.0932058818458452,Uncertain
+chief_complaint,Chief Complaint,0.6247880237504552,Exact Match
+hpi,History of Present Illness,-0.06901611625027955,Uncertain
+past_psychaitric_history,"Past Psychiatric History (Include: CSA, case management, hospitalizations)",0.26028442959903403,Weak Match
+history_suicidal_behavioral,History of Suicidal/Homicidal/Violent Behavior,0.7355055592228521,Exact Match
+medical_history,"Medical History (head injury, seizure disorders, surgeries, etc.)",0.6505530572892576,Exact Match
+social_history,"Social History (family, emotional, physical, sex abuse, legal, substance use)",0.7060171817793697,Exact Match
+description,Description:,0.5644705762141796,Weak Match
+persons_present,Persons Present,0.7242605945379523,Exact Match
+changes_previous_previous_visit,Changes from Previous Visit,0.49811491123076,Weak Match
+mental_status_exam,Mental Status Exam,0.585118825890012,Weak Match
+labs,Labs,0.5598164830529411,Weak Match
+medical_conditions,Medical Conditions,0.5907499496425614,Weak Match
+psychiatric_recommendations_medication_side_effects,"Psychiatric Recommendations including Justification of Medication, Side Effects, and Adverse Reactions",0.7791273936189503,Exact Match
+client_participation_text,,-0.04408007638502033,Uncertain
+group_focus,Group Focus*,0.4637535810535994,Weak Match
+status_text,,0.11052169303443916,Uncertain
+summary_text,,0.15341220625720045,Uncertain
+situation_text,Situation,0.07664049218444963,Uncertain
+intervention_text,Intervention,0.10011298868498965,Uncertain
+response_text,Response,0.14969964356010929,Uncertain
+progress_text,Progress,0.18327886706574978,Uncertain
+changes_in_mse,Changes in MSE or New Issues Presented in today's session,0.52150170569445,Weak Match
+session_objective,Session Objective/Notes,0.3214504717891656,Weak Match
+narrative,Narrative*,0.3873466029687779,Weak Match
+support_offered,Support Offered,0.8860461309067658,Exact Match
+response_outcome,Response/Outcome,0.4475957370687905,Weak Match
+new_information_interim_updates,New Information / Interim Updates,0.8050185859133772,Exact Match
+clinical_interventions_consumer_response_progress_towards_goals,Clinical Interventions / Consumer Response / Progress Towards Goals,0.7876265800272926,Exact Match
+response_outcome,Response/Outcome,0.4475957370687905,Weak Match
+party_txt,,-0.20019900902029883,Partial Contradiction
+case_txt,,-0.12716998453677905,Uncertain
+indiv_txt,,-0.10306444020998795,Uncertain
+activity_txt,,-0.058635799503339685,Uncertain
+response_txt,,-0.10166851714947077,Uncertain
+plan_txt,,-0.14467397594623754,Uncertain
+responsetointervention,Response to Intervention/Progress Toward Goals and Objectives,0.24835893840245804,Weak Match
+additionalinfo,Additional Information/Plan (if applicable),0.7031952770533854,Exact Match
+Chief_Comptxt,,-0.09432866013004616,Uncertain
+Med_Rectxt,,-0.10022855341836012,Uncertain
+F_Historytxt,,-0.10453614094715336,Uncertain
+Assessment_Plantxt,,-0.1489778319295392,Uncertain
+current_issues,Current Issues Addressed:*,0.6601926457054089,Exact Match
+observations,Observations Made of Individual:*,0.593466859917251,Weak Match
+plan_treatment,Specific Plan for Ongoing Treatment or Follow up Needed,0.40081379008212364,Weak Match
+activity_observations,Activity & Observations *,0.40727845148753944,Weak Match
+riskassessment,Risk Assessment,0.4374885866625125,Weak Match
+location_text,Location*,0.2573395955642824,Weak Match
+care_coordination_text,Care Coordination/Consultation,0.004610473810025702,Uncertain
+session_notes_text,Session Notes*,0.2450578233128335,Weak Match
+additional_information_text,,0.012318963209001124,Uncertain
+progress_text,,-0.05561406600003648,Uncertain
+location_text,Location,0.1441492792545235,Uncertain
+session_text,Session Notes,-0.08814069025938956,Uncertain
+progress_text,Progress,0.18327886722338374,Uncertain
+focus_text,Focus of Session*,0.010023747132838592,Uncertain
+session_text,Session Notes,-0.08814069025938956,Uncertain
+interventions_text,Interventions Used/Response to Interventions*,0.04800540935137459,Uncertain
+progress_text,Progress*,0.25226177185896465,Weak Match
+crisis_text,"Current crisis situation, needs, problems, and stressors",-0.03357660753159619,Uncertain
+narrative_text,Content of session/Narrative,0.2427316143076037,Weak Match
+session_content,Session Content,0.5207134899957091,Weak Match
+screening,Review of Screening Tools,0.23185853951746935,Weak Match
+subjective,"Subjective Data (on a patient's feelings, experiences, or thoughts, such as direct quotes or their observations) *",0.4944496505924798,Weak Match
+objective,"Objective Data (regarding the client's mental or general health status, e.g., details from their therapy appointment) *",0.1699569401197233,Uncertain
+review,"Review of previous assessment, including progress",0.5826904870379027,Weak Match
+needs_barriers,Review of needs and barriers,0.19848320372413222,Uncertain
+assign,Assign Follow-up Tasks:,0.7459002637108424,Exact Match
+outreach_info,Outreach Information,0.6528032693167155,Exact Match
+desc_details,Describe details of PAYA service,0.7454800127271679,Exact Match
+clin_obs,Clinical Observations,0.5223315954656933,Weak Match
+client_response,Client Responses,0.6348425662598884,Exact Match
+progress_towards,Progress Towards Recovery Plan Objectives,0.47852878046772085,Weak Match
+timelines,Timelines for Next Service,0.44967385041239794,Weak Match
+what_actions,What actions should the individual complete before next service?,0.682994416822847,Exact Match
+objective,Note Address Which PCRP Objective,0.26751547085248295,Weak Match
+details,Describe details of the training service,0.6022527392243806,Exact Match
+observations,Clinical Observations,0.6607793240167018,Exact Match
+responses,Client Responses,0.4653902823756396,Weak Match
+timeline,Timelines for Next Service,0.24023392690421452,Weak Match
+intervention_text,Intervention,0.10011308254374932,Uncertain
+response_text,Response,0.1496997665430549,Uncertain
+progress_text,Progress,0.18327895757838478,Uncertain
+intervention_text,Interventions:,0.03691212066791828,Uncertain
+response_text,Response:,0.2208003566323537,Weak Match
+what_we_talked_about,What we talked about,0.8033756172812216,Exact Match
+plans,Plans (Who will do what by when?),0.40812512146738367,Weak Match
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.19569478427555034,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.21383973451185248,Weak Match
+narrative,Narrative,0.4179504607687354,Weak Match
+problems_addressed,"Specific problems(s), issue(s), behavior(s), skill deficits addressed:",0.7930157624476418,Exact Match
+update,Update on client mental health status and significant life changes:,0.6188542300803404,Exact Match
+efforts_activities,Case Manager’s Efforts/Activities:,0.6125886522582278,Exact Match
+assessment_continued,Assessment continued (A),0.9235549164810957,Exact Match
+if_yes_explain,"If Yes, Explain?",0.869808070235647,Exact Match
+current,Current physical and health status,0.6154048586737917,Exact Match
+explanation,"Explanation (use direct quotes from Customer, when possible)",0.43046351352024753,Weak Match
+service,Describe details of housing service,0.2860656867818152,Weak Match
+paya_service,Describe details of PAYA service,0.5513230436301779,Weak Match
+subjective,"Subjective -Client's feelings, concerns, and experiences",0.5472408959096414,Weak Match
+objective,"Objective - Observable, quantifiable and factual data",0.32217717261242235,Weak Match
+Contact_Typetxt,,-0.09968275658575236,Uncertain
+Narrativetxt,,0.056955782103830135,Uncertain
+Follow_Uptxt,,-0.09098566462636176,Uncertain
+desc_distresstxt,,0.06214396923327535,Uncertain
+w_triggerstxt,,-0.13955929202854947,Uncertain
+plantxt,,-0.07090292757687855,Uncertain
+psych_chief_complaint,Chief Complaint,-0.019923359508918194,Uncertain
+psych_interval_history,Interval History,0.01673614228127373,Uncertain
+psych_review_systems,Review of Systems,0.08190669979035531,Uncertain
+psych_plan_smoking,Plan/Education provided towards smoking cessation:,-0.08075174116909947,Uncertain
+psych_substance_abuse,Substance Use/Abuse/Addictive Behaviors,0.03814317761359479,Uncertain
+psych_mental_status,Mental Status Exam,0.013111479495976566,Uncertain
+psych_medical_assessment,Medical Decision Making/Assessment Plan,-0.08109995365832717,Uncertain
+psych_counseling_comments,Counseling Done Comments:,-0.05985401720920195,Uncertain
+psych_care_coordination,Coordination of Care Comments:,0.03233051965071511,Uncertain
+psych_other_factors,"Are there other factors affecting Medical Decision Making (comorbidities, complications, worsening conditions, etc)?",0.23040615477381213,Weak Match
+psych_goals_next,Are there any goals for the next session?,-0.020968124627643428,Uncertain
+key_moments,Key Moments,0.7342695143757085,Exact Match
+psych_1,Presenting Concerns (Chief Complaint & Additional Concerns):,-0.13959535629681288,Uncertain
+psych_2,Symptom History:,-0.17398994615450677,Partial Contradiction
+psych_3,Family/Caregiver Observations:,-0.2580003745158119,Strong Contradiction
+psych_4,Appearance and Behavior:,-0.23892466208211144,Partial Contradiction
+psych_5,Mood and Affect:,-0.1972235306297313,Partial Contradiction
+psych_6,Speech and Thought Process:,-0.21994689545148186,Partial Contradiction
+psych_7,Additional Observations:,-0.27736130504515627,Strong Contradiction
+psych_8,Diagnosis:,-0.24129232920677282,Partial Contradiction
+psych_9,Clinical Impression:,-0.20507107724202187,Partial Contradiction
+psych_10,Progress:,-0.2616347671652897,Strong Contradiction
+psych_11,Medication Management:,-0.147161236028332,Uncertain
+psych_12,Therapeutic Interventions:,-0.12832389460076463,Uncertain
+psych_13,Behavioral Recommendations:,-0.15269454917436706,Partial Contradiction
+psych_14,Follow-Up:,-0.21795704096758317,Partial Contradiction
+psych_15,Caregiver Education:,-0.24269539649357583,Partial Contradiction
+psych_16,Client Engagement:,-0.17171422497786656,Partial Contradiction
+psych_17,Clinical Data (lab orders/results/AIMS/ phone calls/scores from rating scales):,-0.29532654612916054,Strong Contradiction
+steps,What steps and assignments need to be taken to prepare for discharge?,0.21989147921098895,Weak Match
+home,Progress in the Home,0.6422089157344942,Exact Match
+needs,Needs,0.7522228368276823,Exact Match
+outcomes,Describe Outcomes,0.561327934578475,Weak Match
+intervention_activity,Intervention Activity,0.5531946413906127,Weak Match
+effectiveness_outcome,Intervention Effectiveness / Outcome,0.4735833875230178,Weak Match
+information,Session Information,0.7063052455910382,Exact Match
+describe_services,"Describe current service(s), how the service addressed the beneficiary's behavioral health need (e.g., symptom, condition, diagnosis, and/or risk factors).",0.8996941170433825,Exact Match
+goal,Goal,0.623727095833639,Exact Match
+transition_plan,Transition Plan,0.6620432406755541,Exact Match
+purpose,Purpose/Present,0.302926410576369,Weak Match
+response,Response,0.4337319789906334,Weak Match
+goal,Goal,0.623727095833639,Exact Match
+interventions_plan,Planned Interventions,0.7792331066186678,Exact Match
+transition_plan,Transition Plan,0.6620432406755541,Exact Match
+information,Session Information,0.7063052455910382,Exact Match
+purpose,Purpose/Problem,-0.04761255552483973,Uncertain
+goals,Goals/Actions,0.22535162343262374,Weak Match
+intervention_course,Interventions and Course of Treatment/Action,0.10122712136759732,Uncertain
+problem,Problem Statement:,0.567110003944158,Weak Match
+problem,Problem Statement,0.5504878845365279,Weak Match
+problem_statement,Problem Statement,0.7567351510397635,Exact Match
+client_response,Client Response,0.639174901270301,Exact Match
+intervention_text,Intervention (Interaction that occurred during service delivery and how it relates to plan of care),-0.00509689119695228,Uncertain
+response_text,Response to today's intervention / changes in condition,0.04927096723967847,Uncertain
+progress_text,Explain your progress rating,0.2793041481901245,Weak Match
+intervention_text,Describe interaction that occurred during service delivery and how it relates to plan of care,-0.14308418453349384,Uncertain
+response_text,Describe response to today's Intervention,0.32037926320080157,Weak Match
+progress_text,Explain your progress rating,0.2793041481901245,Weak Match
+intervention_text,Intervention (Interaction that occurred during service delivery and how it relates to plan of care),-0.00509689119695228,Uncertain
+response_text,Response to today's intervention / changes in condition,0.04927096723967847,Uncertain
+progress_text,Explain your progress rating,0.2793041481901245,Weak Match
+briefdescriptiontb,Brief Description:,-0.03946298232892532,Uncertain
+medicalconcernstb,Medical Concerns:,0.12384945693213882,Uncertain
+behaviorstb,Behaviors:,0.003854877345744609,Uncertain
+housetb,House,0.08852475995621548,Uncertain
+ECSteamtb,ECS Team,0.010593861412235494,Uncertain
+familyguardiantb,Family/Guardian,-0.036131615052973395,Uncertain
+psychiatristtb,Psychiatrist,-0.0740457856174008,Uncertain
+currentcontext_text,"Client's current context, needs, and barriers:",0.15202411435494262,Uncertain
+summary_text,"Session summary, Care Navigator's actions to address barriers and next steps:",0.428511114728758,Weak Match
+Progresstextbox,Progress on employment/ education since last visit:,-0.09578106854761943,Uncertain
+Interventionstextbox,"Interventions used and manner of delivery, including treatment goals from ISP (treatment plan) addressed:",-0.1307318306313328,Uncertain
+Responsetb,Client presentation and response to interventions (include direct client quotes):,-0.019812614445911175,Uncertain
+Providertextbox,Provider/ Client plan of action (including plan for next session):,-0.10659743817978867,Uncertain
+admissionsummarytext,Admission Summary:,0.10329735723295479,Uncertain
+additionalsessiontb,"Additional session/summary information (note ROIs signed, other people in the session, etc):",-0.050229290226198126,Uncertain
+objectivestb,Objectives that were addressed or need to be added to the Treatment Plan:,-0.2511755771051372,Strong Contradiction
+clientplantb,Client plan,-0.14057907241365436,Uncertain
+providerplan,Provider plan of action (or future directions/next steps),0.32900649718723873,Weak Match
+providerconsulted,(if applicable) Provider consulted with the following Care Team Members:,0.2550598414763334,Weak Match
+summary_text,Summary of Overall Progress:,0.45750618244213964,Weak Match
+observations,"Observations: Symptoms, Thoughts, Mood, Appearance, Behaviors ",0.6259301934944866,Exact Match
+response,"Consumer Response - Progress Towards Goals, Strengths Demonstrated ",0.34600270887740575,Weak Match
+substance,"Substance Use (status of use, substance(s) used, frequency, and comments)",0.3093698591306521,Weak Match
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.19569478427555034,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.21383973451185248,Weak Match
+barriers,Identify barriers to treatment and identify new needs (if any).,0.5525198489152591,Weak Match
+previous_homework,Discuss/Review of previous homework if applicable.,0.7683210814742458,Exact Match
+new_homework,"Assignment of new homework, if applicable.",0.6799011840056729,Exact Match
+response,"List and/or Describe Material presented, Specific Techniques, and Parent or LAR Response",0.2657520127202082,Weak Match
+stressors_text,,-0.11100759416394496,Uncertain
+help_text,,-0.09449489785729709,Uncertain
+intervention_text,,-0.1091704684586013,Uncertain
+steps_text,,-0.07353350158705492,Uncertain
+crisis_problem,Crisis Presenting Problem,0.48074511824443683,Weak Match
+describe_risk_text," Describe Risk (ideation,intent,plan,means,attempt,& other applicable details) ",0.31677374964025234,Weak Match
+intervention_text,Intervention Description & Narrative:,-0.044679903484654386,Uncertain
+patient_response,Describe the Patient's Response to Interventions Delivered:,0.6634525850746312,Exact Match
+follow_up_plan_text,"Follow Up,Plan,& Instructions Given to Patient:",0.1812244005912797,Uncertain
+intervention_description_text,Intervention Description & Narrative:,0.09734822496181343,Uncertain
+patient_response_text,Describe the Patient's Response to Interventions Delivered:,0.3424975227858606,Weak Match
+purpose,Purpose,0.553126421520112,Weak Match
+Functioning,"Functioning - Observed or Reported (May include mood, affect, behavior, cognitive functioning, etc.):",0.5708352559098082,Weak Match
+response,Person's Response to Intervention/Progress Toward Goals and Objectives:,0.5543515479773888,Weak Match
+Functioning,"Functioning - Observed or Reported (May include mood, affect, behavior, cognitive functioning, etc.):",0.5708352559098082,Weak Match
+response,Person's Response to Intervention/Progress Toward Goals and Objectives:,0.5543515479773888,Weak Match
+response,Person's Response to Intervention/Progress Toward Goals and Objectives:,0.5543515479773888,Weak Match
+note,Case Management Note:,0.5584004373781696,Weak Match
+currentsymptoms,Current Symptoms:,0.7503003948802837,Exact Match
+responsetointerventions,Response to Intervention(s):,0.545258330161495,Weak Match
+new_issue_stressors_events,New Issue(s)/Stressors/Extraordinary Events Presented Today,0.5518306417634269,Weak Match
+diagnnostic_assessment,Diagnostic Assessment Update Required?,0.1574739013223193,Uncertain
+brief_mental_status_exam,Brief Mental Status Exam,0.6353200843551772,Exact Match
+client_presents_danger_to_others,Client presents as a danger to:,0.8007807406907378,Exact Match
+client_presents_danger_in_form_of,Danger is in the form of:,0.22397377162559576,Weak Match
+interactive_complexity,"If yes, please select which were factors in today's visit and provide summary documentation",-0.10889514698844484,Uncertain
+strengths,How client's strengths and assets will be used:,0.34587454563579206,Weak Match
+external_connections,How external resources/services support goals:,0.47839758701636065,Weak Match
+problem_summary,Summarize the problem,0.8890037052894033,Exact Match
+goal,GOAL: State the goal in the client's own words:,0.44007150343576573,Weak Match
+indictaors_goal,Describe the indicators of goal achievement,0.15179130148386105,Uncertain
+mms_plan,MMS PLAN,0.5139113546540472,Weak Match
+documentation,Documentation,0.49593348438559165,Weak Match
+mms_cpst_plan,MMS CPST PLAN:,0.5981842317751497,Weak Match
+additional_comments,Additional Comments,0.8329385718704303,Exact Match
+intervention_narrative,Intervention narrative:,0.5799568193497612,Weak Match
+client_response,Client response:,0.6373382461666313,Exact Match
+narrative,Presenting Issue. Clinical Observations. Therapist Interventions. Client Response. Follow-up Plan.,-0.03832914903465749,Uncertain
+presenting_issue,Presenting Issues by Client and Observation by Therapist:,0.5948797826905312,Weak Match
+clinical_intervention,Clinical Intervention by Therapist:,0.6928160148734449,Exact Match
+goal_objective_addressed,Goal/Objective addressed and progress toward achievement of Goal/Objective:,0.850577402796766,Exact Match
+client_response,"Client Response (including motivation, obstacles/barriers):",0.4191378060515357,Weak Match
+followup_plan,"Follow-up Plan (including assigned homework, recommendations, termination plan):",0.6616077239608036,Exact Match
+narrative,Narrative,0.41794988136993755,Weak Match
+information_text,New Salient Information provided by client/family:,0.0015861873925045455,Uncertain
+goals_text,Goal(s)/Objective(s) focused on in this session:,0.10416423732677793,Uncertain
+interventions_text,Interventions provided and client/family response:,-0.03739327392113791,Uncertain
+narrative,Narrative,0.41794988136993755,Weak Match
+description,Description of Acute Situation and RT Associated Behaviors/Complex Care Needed to Address:,0.623567168050514,Exact Match
+rescommendations_outcome,Recommendation(s)/Outcome:,0.3102833465171602,Weak Match
+goal_objective,Goal and Objective being Addressed :,0.3094293096078335,Weak Match
+subjective,Subjective (Client's description of the problem):,0.33680857760665806,Weak Match
+objective,Objective (Objective observations of the client and problem):,0.4477358254793329,Weak Match
+progress_updates,"Progress and Updates Since Last Visit OR If Appointment No Show/Cancelled, MUST Document Follow Up:",0.6436789134183195,Exact Match
+goals_objectives,Goals/Objectives from TX Plan Addressed Today:	,0.44182262098634617,Weak Match
+response_plan,Recipient Response/Plans Toward Goal(s):	,0.23681218086573225,Weak Match
+subjective,Subjective,0.4892162529333569,Weak Match
+objective,Objective,0.4291059932302803,Weak Match
+participation,Please describe the youth & family's participation & response to the interventions above:,0.5031873489923464,Weak Match
+today_complaint,Today's Chief Complaint/Reason for Visit,0.5675285624503267,Weak Match
+history_illness,History of Present Illness,0.24783801593520882,Weak Match
+persons_present,Persons Present other than Consumer,0.7167949178965827,Exact Match
+med_history,Medical/Psychiatric History,0.10586328844413186,Uncertain
+fam_history,Family History,0.5716285694244596,Weak Match
+social_history,Social/Substance/Legal History,0.5785962327959143,Weak Match
+side_effects,Side Effects,0.757797638916934,Exact Match
+review_comments,Review of Systems Comments,0.45079699251841104,Weak Match
+substance_hx,Substance Use Hx,0.486623958637572,Weak Match
+strength,Strengths,0.6200810153324207,Exact Match
+barriers,Barriers,0.71329163106998,Exact Match
+mental_status,Mental Status Exam,0.2694502379059532,Weak Match
+si_comments,SI/HI Comments,0.16484196995461406,Uncertain
+mse_comments,Mental status exam additional comments,0.1064044216656821,Uncertain
+associated_signs_systems,Associated signs/systems; other information,0.5393192417406114,Weak Match
+lab_comments,Lab Comments,0.643261548180971,Exact Match
+information,Information and Education,0.5554701931454169,Weak Match
+counseling_comments,Counseling Activities Comments,0.1844498667351753,Uncertain
+noncounseling_comments,Non Counseling Activities Comments,0.7369056977039742,Exact Match
+treatment_plan,Plan,0.0087700664658626,Uncertain
+intervention_or_activity,What was the intervention or activity?,0.6797382957215589,Exact Match
+client_response,What was the client's response?,0.601749119690818,Exact Match
+progress_towards_goal,Progress towards the goal?,0.6748642468507866,Exact Match
+enhanced_clients_response,What was the client's response,-0.07259111782529223,Uncertain
+enhanced_progress_towards_goals,Progress Towards Goals,0.047186907784734514,Uncertain
+enhanced_clients_plan,What is the plan,-0.15839656679950032,Partial Contradiction
+enhanced_intervention_or_activity,What was the intervention or activity,0.004353532402757109,Uncertain
+goals_text,Goals and Objectives Targeted/ Progress:,0.17213745236998168,Uncertain
+interventions_text,Interventions/ Services Provided:,0.03991911562173087,Uncertain
+response_text,Response to Interventions/ Assessment/ Significant Observations:,0.2191335520158778,Weak Match
+risk_text,Risk Assessment:,-0.0319913490781348,Uncertain
+individuals,Individuals Present/Contacted:,0.5628642180272786,Weak Match
+content,Content of Contact:,0.16722506228138675,Uncertain
+indiv,Individuals Present/Contacted:,-0.014679283810230622,Uncertain
+content,Content of Contact:,0.16722506228138675,Uncertain
+interventions_and_services,"Interventions and services: Description of service provided must support the progress note selected and how the service addressed the client’s behavioral health need (e.g., symptom, condition, diagnosis, and/or risk factors), document family involvement, if applicable.",0.5564252757335828,Weak Match
+Crisis_textbox,"Crisis Intervention/Support, explain",-0.0031695806243894897,Uncertain
+Otherinfo_textbox,"Other Information/ Updates such as hospitalizations, significant change in symptoms, functioning, supports, custody, educational or vocational situations",-0.018762840825232302,Uncertain
+PresentingProblem_textbox,Presenting Problem (please click to complete),0.023638474526990128,Uncertain
+IntegratedSummary_textbox,Integrated Summary (please click to complete),-0.007908719540983464,Uncertain
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.19569478427555034,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.21383973451185248,Weak Match
+Identify,"Identify Specific Changes in Problems, Symptoms, or Functioning",0.7669520683996441,Exact Match
+Daily,"Daily Summary (include Life Changes, Interventions and Progress):",0.6539923760279943,Exact Match
+servicetext,,0.08483651550000496,Uncertain
+participantstext,,0.13125673914526453,Uncertain
+content_text,,0.08040695175169442,Uncertain
+response_text,,0.11224399366841716,Uncertain
+narrative,Narrative,0.4179504607687354,Weak Match
+subjective,סובייקטיבי,0.12936694686801986,Uncertain
+objective,אובייקטיבי,-0.04956793808709704,Uncertain
+current_report,Current Report of Functioning or Life Changes:,0.7207211715667831,Exact Match
+appearance_other,"If other general appearance, please describe:",0.7415526633635227,Exact Match
+mood_other,"If other mood, please describe:",0.7168442738377256,Exact Match
+affect_other,"If other affect, please describe:",0.6205520065719056,Exact Match
+observations,Observations,0.4937421132846334,Weak Match
+interventions_other,"If other interventions needed, please explain:",0.5659737136634788,Weak Match
+progress_other,"If other progress and/or response to interventions, please explain:",0.6047068592744261,Exact Match
+safety_details,Safety Plan Response/Details:,0.7285769321483354,Exact Match
+current_report,Current Report of Functioning or Life Changes:,0.7207211715667831,Exact Match
+appearance_other,"If other appearance, please describe:",0.771399182676946,Exact Match
+mood_other,"If other mood, please describe:",0.7168442738377256,Exact Match
+affect_other,"If other affect, please describe:",0.6205520065719056,Exact Match
+observations,Observations,0.4937421132846334,Weak Match
+safety_details,Safety Plan Response/Details:,0.7285769321483354,Exact Match
+presenting_problems,"Presenting Problem(s), as Indicated by Client/Family:",0.6396604307698782,Exact Match
+if_otherappearance,"If ""Other"", please describe:",-0.06774447209894602,Uncertain
+if_othermood,"If ""Other"", please describe:",0.02139670897889176,Uncertain
+if_otheraffect,"If ""Other"", please describe:",0.19670570180666985,Uncertain
+observations,Observations,0.4937421132846334,Weak Match
+summary_response,Summary/Response of Intervention/Services,0.20438316129575596,Weak Match
+safety_plan,Safety Plan Response/Details:,0.469729250785439,Weak Match
+current_report,Current Report of Functioning or Life Changes:,0.7207211715667831,Exact Match
+appearance_other,"If other appearance, please describe:",0.771399182676946,Exact Match
+mood_other,"If other mood, please describe:",0.7168442738377256,Exact Match
+affect_other,"If other affect, please describe:",0.6205520065719056,Exact Match
+observations,Observations,0.4937421132846334,Weak Match
+other_ebp,Other EBP:,0.7157003522171188,Exact Match
+safety_details,Safety Plan Response/Details:,0.7285769321483354,Exact Match
+main_question_concern,Main Question/Concern for Today:,0.5662727713627429,Weak Match
+lab_results,Lab Results/Collateral Information/Records Review:,0.32497342155518844,Weak Match
+medication_side_effects,Medication Side Effects:,0.6996843864282146,Exact Match
+updated_history,Updated Medical/Family/Social History:,0.872816208373384,Exact Match
+plan_recommendations,Plan/Recommendations:,0.6260401001814938,Exact Match
+psychoeducation_counseling,PsychoEducation/Counseling :,0.703196084723211,Exact Match
+FacetoFace_textbox,,-0.2003270329308563,Partial Contradiction
+Functioning_textbox,,-0.057270055957091476,Uncertain
+Interventions_textbox,,-0.18589909678867858,Partial Contradiction
+Response_textbox,,-0.0529926053202382,Uncertain
+Plan_textbox,,-0.17623520599786652,Partial Contradiction
+goal,Goal for this Services:,0.47412595613736963,Weak Match
+narrative,Narrative:,0.45308946454973437,Weak Match
+goal,"Goal for This Service: Indicate a specific, observable and/or measurable goal(s) related to the client’s mental health needs.",0.35691985747496874,Weak Match
+narrative,"SESSION NARRATIVE: Indicate medically necessary service(s) provided. If client/collateral present, also indicate participant(s) response to service(s).",0.45264960266012444,Weak Match
+goal,Goal for this Service:,0.4822487185250739,Weak Match
+response,Response:,0.45254557897455244,Weak Match
+riskofharm_notes,Explain (Risk of Harm),0.35354178013967696,Weak Match
+documentation,Data,0.4537631720814552,Weak Match
+stages_of_change,Stages of Change,0.6254641764897896,Exact Match
+suggestions,Suggestions & Recommendations,0.5536557549787424,Weak Match
+goals,Goal(s),0.6027770260305927,Exact Match
+interventions_response,Interventions & Response,0.35295102072127904,Weak Match
+risks,Risk(s) Identified,0.5027416528955951,Weak Match
+response,Client's/Other's response and insights to provider's intervention and recommendations,0.6032256066380627,Exact Match
+narrative,Narrative,0.4179504607687354,Weak Match
+narrative,Narrative,0.4179504607687354,Weak Match
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.19569478427555034,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.21383973451185248,Weak Match
+service,Service,0.5697627325791738,Weak Match
+coordinated_services,Waiver and Non-Waiver Services: List of waiver and non-waiver services reviewed and coordinated in this session.,0.1893808038418511,Uncertain
+satisfaction,Satisfaction: A client quote or other indicator of the client or guardian's report of satisfaction or dissatisfaction with the services coordinated during this session.,0.3540869284166967,Weak Match
+psych_chief_complaint,Today's Chief Complaint/Reason for Visit,0.19401153320591025,Uncertain
+psych_side_effects,Side Effects - Specify,-0.03719513804906491,Uncertain
+psych_illness,General History of Present Illness - Narrative,-0.2255798078161352,Partial Contradiction
+psych_review_systems_comments,Review of Systems & Active Medical Problems- Comments,0.021748458740567106,Uncertain
+psych_medical_history,Past Psychiatric/Medical History including Past Medication Trials,0.608034335461305,Exact Match
+psych_family_history,Family History,0.03650065456301769,Uncertain
+psych_social_history,Social History,-0.005210308143284251,Uncertain
+psych_substance_use_history,Substance Use History,-0.01917635080357444,Uncertain
+psych_mental_status_comments,"Mental status exam additional comments, Descriptions",0.042882505145632153,Uncertain
+psych_plan,Plan,-0.03292665728015151,Uncertain
+psych_medication_information_education,Medication Information and Education,-0.024969711414166422,Uncertain
+psych_psychosocial_environmental_other_factors,"Psychosocial, Environmental, and Other Factors - Comments",0.38632048868625884,Weak Match
+purpose_text,,0.044526931057365084,Uncertain
+activity_text,,0.060415094734104925,Uncertain
+response_text,,0.11224399366841716,Uncertain
+overall_outcome_text,,-0.11924152921731743,Uncertain
+skills_text,"Reason for visit, what skills, tools, and techniques were reviewed with the client and how do those relate to the client's treatment goal? *",-0.1326328862166244,Uncertain
+quote_text,"Using a client quote,what was the client's response to today's session *",0.2587655062888935,Weak Match
+progress_text,What is the provider's perspective on the client's progress and engagement in this session? *,-0.1226357357678581,Uncertain
+act_progress,"Movement toward treatment plan objectives by (include Individual's perception of services, supports and/or treatment and progress toward goals)",0.28713187129740186,Weak Match
+act_staff_intervention,"Staff intervention (i.e. modality, EBP, assignment of homework, etc.)",0.2582871214706488,Weak Match
+act_individual_response,Individual's Response to Intervention,0.4111870357488668,Weak Match
+individual_response,Individual's Response to Intervention,0.7646419752228051,Exact Match
+problem_text,Problem,0.11534660762238011,Uncertain
+intervention_text,Intervention,0.10011331568965061,Uncertain
+evaluation_text,Evaluation,0.107711674280375,Uncertain
+Description,Description of Crisis,0.6076878349700501,Exact Match
+Client_Coping,Client's Coping Skills Used to Reduce Crisis,0.670795594509446,Exact Match
+Community,Community Resources Used/Accessed,0.3165655741031044,Weak Match
+goals,Goals Addressed,0.28118762800623726,Weak Match
+response,Participation/Response,0.42570897009111003,Weak Match
+observation,Staff Observations and Assessment,0.4520905297162464,Weak Match
+response,Client Response,0.4750499871861188,Weak Match
+treatment_provided,Treatment provided (Document treatment and client outcome during session):,0.8254844750633297,Exact Match
+treatment_goals,Progress toward Treatment Goals (Document progress toward this treatment goal):,0.45066437177402907,Weak Match
+suicidal_ideation_text,,-0.19684471921546345,Partial Contradiction
+homicidal_ideation_text,,-0.20475756329363282,Partial Contradiction
+community_resources,Referral to Community Resources:,0.5461057161690182,Weak Match
+contact_with_caregiver,Contact with Caregiver:,0.8080746684600628,Exact Match
+coordination_of_services_text,,-0.08728993867072705,Uncertain
+details_of_contact,Details of Contact,0.6883664818027478,Exact Match
+specific_interventions,"Specific interventions provided by clinician and targeted actions taken, based on curriculum used, to educate or practice skills to support the consumer toward achieving the identified service plan goal/objective focused on during the session.",0.7232956660077349,Exact Match
+member,"Member (and family, when applicable) response to the session or intervention (what did the member do in session?):",0.4223153367739049,Weak Match
+needs,"Any new needs, goals, and/or objectives identified during session or service:",0.3494069089123199,Weak Match
+any_new_needs,"Any new needs, goals, or objectives identified during services:",0.8575855401268536,Exact Match
+progress_barriers,Progress or Barriers made towards goals and/or objectives:,0.11599986101905037,Uncertain
+specific_activites,"Specific activities performed by Case Manager on behalf of the client/family AND client (and family, when applicable) response to the services (What client did and said during session)",0.7058943602677544,Exact Match
+specific_interventions,"Specific interventions provided by clinician and targeted actions taken, based on curriculum used, to educate or practice skills to support the consumer toward achieving the identified service plan goal/objective focused on during the session.",0.7232956660077349,Exact Match
+progress_barriers,"Progress, or barriers to progress, made in treatment as it relates to the goals and/or objectives, as evidenced by:",0.30923011893786967,Weak Match
+any_new_needs,"Any new needs, goals, and/or objectives identified during session or service:",0.8827320154059229,Exact Match
+specific_interventions,"Specific interventions provided by peer and targeted actions taken to support, assist, model, or mentor the consumer toward achieving the identified service plan goal/objective focused on during the session",0.7269395361772886,Exact Match
+progress_barriers,"Progress, or barriers to progress, made in treatment as it relates to the goals and/or objectives, as evidenced by:",0.30923011893786967,Weak Match
+any_new_needs,"Any new needs, goals, and/or objectives identified during session or service:",0.8827320154059229,Exact Match
+act_intervention,Content / Intervention and Progress,0.03069976918547792,Uncertain
+cm_intervention,Content / Intervention and Progress,0.09719507951978844,Uncertain
+group_response,Response to Group,0.5009040630144123,Weak Match
+progress_intervention,Content / Intervention and Progress,0.1557397909666338,Uncertain
+summary_of_treatment_goals,Summary of treatment goals / objectives / interventions addressed with this contact,0.7947179064136868,Exact Match
+interventions_methods,Intervention(s) / Method(s) Details,0.36184904980752447,Weak Match
+response_progress,Response to Intervention / Progress Toward Outcomes and Objectives,0.25613839274512634,Weak Match
+summary_of_treatment,Summary of treatment / goals / objectives / interventions addressed with this visit,0.74715806720709,Exact Match
+action_plan,Action Plan - 1,0.5360028020360607,Weak Match
+intervention_text,Intervention:,0.17901342908786236,Uncertain
+response_text,Response:,0.220799646603901,Weak Match
+progress_text,Progress:,0.3273369010360097,Weak Match
+additional,Additional Details about Contact:,0.6804557931781966,Exact Match
+field_notes,"Field Notes (Client Concerns, Provider Intervention, Response):",0.5392493159248404,Weak Match
+new_interventions,The following new Interventions will be implemented: (when there are new interventions):,0.6114289988098397,Exact Match
+brief_narrative,Brief Narrative:,0.5790581169374983,Weak Match
+collateral_contacttb,Collateral Contact,0.05170573103897122,Uncertain
+GoalTB,Client Goal Addressed,0.01463054135946485,Uncertain
+InterventionTB,Staff Intervention,0.24201266727601614,Weak Match
+ResponseTB,Client Response to Intervention,0.30570686527499896,Weak Match
+PlanTB,Plan (What are the next Steps):,0.06612203362524022,Uncertain
+GoalTB,Client Goal Addressed,0.01463054135946485,Uncertain
+InterventionTB,Staff Intervention,0.24201266727601614,Weak Match
+ResponseTB,Client Response to Intervention,0.30570686527499896,Weak Match
+PlanTB,Plan (What are the next Steps):,0.06612203362524022,Uncertain
+GoalTB,Client Goal Addressed (FACE TO FACE ONLY),0.06473017545994217,Uncertain
+InterventionTB,Staff Intervention (FACE TO FACE ONLY),0.37481138492500576,Weak Match
+ResponseTB,Client Response to Intervention (FACE TO FACE ONLY),0.36632804398311,Weak Match
+PlanTB,Plan (What are the next Steps):,0.06612203362524022,Uncertain
+GoalTB,Client Goal Addressed,0.01463054135946485,Uncertain
+InterventionTB,Staff Intervention,0.24201266727601614,Weak Match
+ResponseTB,Client Response to Intervention,0.30570686527499896,Weak Match
+PlanTB,Plan (What are the next Steps):,0.06612203362524022,Uncertain
+others_presenttxt,,-0.060172904977861305,Uncertain
+additional_comments,Additional Comments:,0.8495605128535634,Exact Match
+add_commentstwo,Additional Comments:,0.5004582330135787,Weak Match
+add_commsthree,Additional Comments:,0.1996294130112697,Uncertain
+progclient_response,Progress/Client Response to Intervention:,0.29353360496657754,Weak Match
+desc_activitytxt,Describe Specific Activity,-0.08209940623717288,Uncertain
+relevant_info,Relevant New Information Provided About the Individual Since Last Contact (How did strategies work from the previous visit?) Joint Plan for Today's Visit,0.7157663127396006,Exact Match
+intervention_comments,Intervention Comments. What was observed/practiced today?,0.5502135801769625,Weak Match
+indiv_response,Individual Response to Interventions/Techniques Used. Routine Caregiver's Reflection to Intervention/Techniques Used.,0.29719442180047784,Weak Match
+strengths,"Strengths, Needs, Areas of Growth and/or Feedback Provided to Routine Caregiver.",-0.01925446307658571,Uncertain
+desc_progress,Describe Progress or Lack of Progress,0.4573948841465752,Weak Match
+follow_up,Follow Up Plan,0.7018169649772789,Exact Match
+response_interactions, Response/Interactions (includes therapist's interactions),0.25572961873125694,Weak Match
+additional_comments_oberservations,Additional Comments/Observations,0.8169471511372078,Exact Match
+response_intervention,Response/Interactions,0.016770256357287912,Uncertain
+comments_oberservations,Additional Comments/Observations,0.668595382630767,Exact Match
+description_text,,0.10636446987702217,Uncertain
+recommendations_text,,-0.10546568204518517,Uncertain
+followup_text,,0.1085946259380075,Uncertain
+narrative,סיכום פגישה,0.09341441547071654,Uncertain
+situation,Situation,0.41653132392444275,Weak Match
+response,Client Response,0.4750502354389857,Weak Match
+narrative_text,Narrative,0.2127339036840279,Weak Match
+narrative,Activity Narrative,0.15989764371930756,Uncertain
+next_appointment,Next Appointment,0.7791360053931464,Exact Match
+notes_tb,Notes,0.01426547990881063,Uncertain
+summary_textbox,SOAP Note,-0.06048720354045974,Uncertain
+summary_textbox,,-0.08153609917523091,Uncertain
+problems_textbox,,-0.10526529694317785,Uncertain
+event_text,,-0.044180889910832286,Uncertain
+intervention_text, ,-0.15477617923483977,Partial Contradiction
+hide_PLAN_header, ,-0.26823389799634034,Strong Contradiction
+hide_TREATMENT_header, ,-0.2292528425268755,Partial Contradiction
+hide_ASSESSMENT_header, ,-0.22194305145013368,Partial Contradiction
+reason,Reason for Contact *,0.3755711079658033,Weak Match
+description,Description of Service,0.5731488284996257,Weak Match
+situation,Situation,0.4165320163845246,Weak Match
+response,Client Response,0.47505084404383324,Weak Match
+response,Client Response to Intervention,0.5065671880775352,Weak Match
+response,Client Response to Intervention,0.5065671880775352,Weak Match
+therapeutic_intervnetions,Therapeutic Interventions Addressed from ISP,0.3689846248492535,Weak Match
+response,Response to,0.4435884885589695,Weak Match
+individual_client_information,Individual Client Information,0.7913160320330942,Exact Match
+new_issues,New Issue(s) Presented Today,0.6790033113873235,Exact Match
+attended_text,Who attended this session?,0.08917478514367416,Uncertain
+concerns_text,,0.00046432241048419143,Uncertain
+response,Consumer's response to the session:,0.6183105766563739,Exact Match
+barriers,Barriers to Discharge,0.5976021045074834,Weak Match
+family,Have any family or other support sessions been conducted or scheduled? Why or why not?,0.27409987634635047,Weak Match
+frequency_text,"If yes, please note the change in frequency of services and the reason for the change.",0.13038582911192864,Uncertain
+levelofcare_text,"If yes, please note the change in the Level of Care and the reason for the change.",0.14184776612628086,Uncertain
+concerns_text,,0.00046432241048419143,Uncertain
+response,Consumer's response to the session:,0.6183105766563739,Exact Match
+barriers,Barriers to Discharge,0.5976021045074834,Weak Match
+family,Have any family or other support sessions been conducted or scheduled? Why or why not?,0.27409987634635047,Weak Match
+frequency_text,"If yes, please note the change in frequency of services and the reason for the change.",0.13038582911192864,Uncertain
+levelofcare_text,"If yes, please note the change in the Level of Care and the reason for the change.",0.14184776612628086,Uncertain
+intervention_summary,"What client said, intervention, and summary of session:",-0.2069527376076955,Partial Contradiction
+response_intervention,Client response to intervention:,0.3413793052230143,Weak Match
+assigned_homework,"Assigned homework, action steps, or comments on plan:",0.43715776415330215,Weak Match
+problem,Problem,0.7408671418801677,Exact Match
+goal_short_term_long_term,Goal (short/long term),0.8607259084724698,Exact Match
+0bjective_steps_to_goal,Objective (steps to goal),0.10478891803895506,Uncertain
+intervention_modality,Intervention/Modality,0.4794091709432365,Weak Match
+response,Response,0.43373155526492135,Weak Match
+response,Response,0.43373219614812986,Weak Match
+identifying_data,Identifying Data,0.8002210174974714,Exact Match
+hpi,History Of Present Illness,-0.08168853795624,Uncertain
+past_psychiatric_history,Past Psychiatric History,0.7062062810744237,Exact Match
+family_psychiatric_history,Family Psychiatric History,0.5986154050189717,Weak Match
+medical_surgical_history,Medical/Surgical History,0.682171400857727,Exact Match
+substance_use_history,Substance Use History,0.538290882372907,Weak Match
+psychosocial_legal_history,Psychosocial/Legal History,0.746208367229389,Exact Match
+birth_development_milestones,Birth and Development Milestones,0.786676905692206,Exact Match
+mental_exam_exam,Mental Status Examination,-0.1086423444581199,Uncertain
+treatment_recommendations,Treatment Recommendations,0.6656741491350194,Exact Match
+narrative,סיכום פגישה,0.09341426681242719,Uncertain
+dap_data_text,Data,0.042272413893109345,Uncertain
+dap_assessment_text,Assessment,0.029047410322213446,Uncertain
+dap_plan_text,Plan,0.019718885225566182,Uncertain
+narrative,Narrative,0.4179496460390936,Weak Match
+response_outcome,Response/Outcome*,0.5177984304997632,Weak Match
+parties_txt,,-0.1790920307350716,Partial Contradiction
+info_txt,,-0.08082005504442244,Uncertain
+mental_status,Mental Status,0.6054474557326326,Exact Match
+presenting_issues,"Today's Presenting Issues, Interventions Provided, Response to Intervention",0.5863950509264686,Weak Match
+con_sat_text,,0.006252881980475836,Uncertain
+focus_text,,-0.10103283751267572,Uncertain
+factors_text,Precipitating Factors,0.003559833045399172,Uncertain
+maladaptive_text,,-0.10680805536200116,Uncertain
+session_text,,-0.05229155331891261,Uncertain
+additional_text,,0.19173732514372852,Uncertain
+spoke_to,Spoke To,0.8249592342341031,Exact Match
+call_information,Call Information,0.5961036459674445,Weak Match
+intervention_text,Therapeutic Intervention Provided,0.030644695804633897,Uncertain
+response_text,Client Response to Intervention/Progress Towards Goals and Objectives,0.10719084267538732,Uncertain
+note_text,Note,0.1944196128753258,Uncertain
+narrative,סיכום שיחה קצרה,0.08260711794977614,Uncertain
+purpose,PURPOSE,0.5570935024036876,Weak Match
+objective,Note Address Which PCRP Objective,0.26751539719748857,Weak Match
+details,Describe details of the case management service,0.6066337126851273,Exact Match
+explain_linkage,Explain linkage to services,0.7575393346351242,Exact Match
+observations,Clinical Observations,0.6607797075851688,Exact Match
+responses,Client Responses,0.4653903438787097,Weak Match
+timeline,Timelines for Next Service,0.2402341436527681,Weak Match
+describe_text,Describe details of employment service,-0.1626562218812012,Partial Contradiction
+clincial_text,Clinical Observations,-0.10253016970428656,Uncertain
+response_text,Client Responses,0.1654566367036663,Uncertain
+progress_text,Progress Towards Recovery Plan Objectives,-0.029567268014983467,Uncertain
+timeline_text,Timelines for Next Service,-0.020595029563801395,Uncertain
+actions_text,What actions should the individual complete before next service?,-0.10515887392628324,Uncertain
+behavioral_desc,Behavioral description of the Presenting Problem or description of New Issue(s) Presented today,0.1676108681553514,Uncertain
+objective,Note Address Which PCRP Objective,0.26751539719748857,Weak Match
+details,Describe details of PSR/IMR service,0.5882725351657772,Weak Match
+observations,Clinical Observations,0.6607797075851688,Exact Match
+responses,Client Responses,0.4653903438787097,Weak Match
+timeline,Timelines for Next Service,0.2402341436527681,Weak Match
+description,Description of Behavior(s),0.4535628322171042,Weak Match
+service,Describe details of employment service,0.3601577331023832,Weak Match
+details,Details of Follow Up/Admission,0.6594836446007627,Exact Match
+strengths,Identify Needs and Strengths of client,0.2840502188077646,Weak Match
+details,Describe details of Peer Specialist Service,0.6171385459949567,Exact Match
+response,Individual Responses to service provided,0.4026060619345009,Weak Match
+timeline,Timeline for Next Service,0.3210425864673367,Weak Match
+interventiontxt,,-0.07442932028163977,Uncertain
+responsetxt,,-0.0718553288198573,Uncertain
+plantxt,,-0.07090292452462431,Uncertain
+psych_history_present_illness,"HPI: History of Present Illness: (Elements: Location, Quality, Severity, Duration, Timing, Content, Modifying Factors, Associated Signs / Sx)",0.02069790375262525,Uncertain
+psych_identifying_information,Identifying Information:,0.02211300306857289,Uncertain
+psych_chief_complaint,Chief Complaint,-0.019923510620021543,Uncertain
+psych_developmental_history,Developmental History,-0.010905491736399027,Uncertain
+psych_medical_history,Medical History,-0.05996075745597124,Uncertain
+psych_family_history,Family Psychiatric History,0.7595588060167323,Exact Match
+psych_client_history,Client Psychiatric History,0.725940519388797,Exact Match
+psych_social_history,Social History,-0.005210241276166939,Uncertain
+psych_review_systems,Review of Systems,0.08190602919067899,Uncertain
+psych_mental_exam,Mental Status Exam,0.004609893083736197,Uncertain
+psych_assessmentplan,Assessment/Plan,-0.1973966955350038,Partial Contradiction
+desc_distresstxt,,0.062143734270053784,Uncertain
+w_triggerstxt,,-0.13955914373051886,Uncertain
+plantxt,,-0.07090284878203787,Uncertain
+intervention_activity,Intervention Activity,0.553193803178954,Weak Match
+effectiveness_outcome,Effectiveness / Outcome,0.4693999639249794,Weak Match
+behavior,BEHAVIOR,0.5249223684616985,Weak Match
+plan_revisions,Plan Revisions,0.7436899177442731,Exact Match
+goals_behaviors,Goals/Behaviors,0.6538965957881129,Exact Match
+purpose,Purpose,0.553126421520112,Weak Match
+inteventions,Interventions,0.335301668994094,Weak Match
+impression,Clinical Impression,0.5711559078572753,Weak Match
+purpose,Purpose,0.553126421520112,Weak Match
+goals,Goals,0.533160847774508,Weak Match
+course,Course of Treatment/Action,0.30660335334888694,Weak Match
+intervention_text,Intervention (Interaction that occurred during service delivery and how it relates to plan of care),-0.005097161000092693,Uncertain
+response_text,Response to today's intervention / changes in condition,0.04927131766528982,Uncertain
+interventions_during_todays_session,Interventions during today's session,0.8344407146857832,Exact Match
+not_applicable_explain,Explain Not Applicable answer from previous question,0.8204378641820363,Exact Match
+service_recommendation_plan,Service Recommendation / Plan,0.4709832684718757,Weak Match
+additional_information_and_comments,Additional Information or Comments,0.8872880528696904,Exact Match
+interventionstb,"Describe interventions used, treatment goals addressed from the ISP (treatment plan) and client's response to intervention:",-0.12342515953690641,Uncertain
+dangertootherstb,Suicidality / Danger to Others:,0.10273418381532586,Uncertain
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,-0.16261551532017127,Partial Contradiction
+Progresstextbox,Progress on treatment plan (ISP) goals since last visit:*,-0.2545287215985363,Strong Contradiction
+Itemstextbox,Items addressed today which are on the treatment plan (ISP)?,-0.12475970481688471,Uncertain
+Interventionstextbox,Interventions used and client's response to treatment:,-0.13536348251120164,Uncertain
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,-0.09096116788395232,Uncertain
+Suicidalitytextbox,Suicidality / Danger to Others:,-0.1007345469027348,Uncertain
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,-0.1626152913918354,Partial Contradiction
+Progresstextbox,Progress on goals since last visit:,-0.1526557468727151,Partial Contradiction
+Interventionstextbox,"Interventions used and manner of delivery, including treatment goals addressed on ISP and client's response to intervention:",-0.11992009556146656,Uncertain
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,-0.09096116788395232,Uncertain
+Suicidalitytextbox,"Suicidality / Danger to Others: If suicidality / danger to others present, complete a Risk Assessment service. If not clinically relevant, put None Reported.",-0.2021318029617085,Partial Contradiction
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):*,-0.14611697591028444,Uncertain
+Progresstextbox,Progress on goals since last visit:,-0.1526557468727151,Partial Contradiction
+Itemstextbox,What items from the treatment plan (ISP) were addressed today?,-0.12766260780969302,Uncertain
+Interventionstextbox,"Interventions used and manner of delivery, including treatment goals addressed and client's response:",-0.14249894398665575,Uncertain
+Suicidalitytextbox,Suicidality / Danger to Others:,-0.1007345469027348,Uncertain
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,-0.1626152913918354,Partial Contradiction
+Progresstextbox,Progress on goals since last visit:,-0.1526557468727151,Partial Contradiction
+Itemstextbox,Goals addressed from ISP (treatment plan) today:,-0.0862046673946261,Uncertain
+Interventionstextbox,"Interventions used, manner of delivery, and client's response:",-0.07354830404219007,Uncertain
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,-0.09096116788395232,Uncertain
+Suicidalitytextbox,Suicidality / Danger to Others:,-0.1007345469027348,Uncertain
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,-0.1626152913918354,Partial Contradiction
+victor_service,Service,0.031808060792637594,Uncertain
+victor_next_steps,Next Steps,0.0033288783863231345,Uncertain
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.19569485660203004,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.21383951979340046,Weak Match
+lastservice,Plan from Last Service,0.45665859519524205,Weak Match
+scope,Scope of Service/Interventions,0.04308347975972552,Uncertain
+response,Client Response to Interventions,0.4888512119233501,Weak Match
+Narrative_text,Narrative,0.14004680189091356,Uncertain
+purpose,Purpose,0.5531266067096386,Weak Match
+note,Note,0.532822242668503,Weak Match
+followup,Follow Up Task,0.6560484218959793,Exact Match
+documentation_text,,0.0799788052815052,Uncertain
+intervention_text,,-0.10917034267756043,Uncertain
+response_text,,0.11224399366841716,Uncertain
+progress_text,,-0.05561467017621411,Uncertain
+intervention_description_and_narrative,Describe Interventions Delivered:,0.008772073376538236,Uncertain
+patients_response_interventions_delivered,Describe the Patient's Response to Interventions Delivered & Plans for Follow Up:,0.6819124844294782,Exact Match
+crisis_presenting_text,Crisis Presenting Problem,-0.26789638550548406,Strong Contradiction
+describe_risk_text,"Describe Risk (ideation, intent, plan, means, attempt, & other applicable details)",0.3538220007922762,Weak Match
+intervention_text,Intervention Description & Narrative:,-0.04467959750826647,Uncertain
+patient_response_text,Describe the Patient's Response to Interventions Delivered:,0.34249812533308416,Weak Match
+follow_up_text,"Follow Up, Plan, & Instructions Given to Patient:",0.23074837267780193,Weak Match
+response,Client Response,0.4750503333231766,Weak Match
+observations,Significant Observations,0.6425537604918736,Exact Match
+response,Client Response,0.4750503333231766,Weak Match
+barriers,Barriers to Treatment and Significant Observations,0.7247573379903329,Exact Match
+note,Notes,0.6517329929996099,Exact Match
+G_Addressed,Goal Addressed,0.3797339156418801,Weak Match
+S_Changes,Significant changes that have occurred since last visit.,-0.01617924409989273,Uncertain
+Intervention_txt,,-0.17212368383536156,Partial Contradiction
+C_Reporttxt,,-0.12431863118962755,Uncertain
+C_Responsetxt,,-0.11400459022591791,Uncertain
+Plan_txt,,-0.1504388809956429,Partial Contradiction
+problem,Problem,0.7408665218648343,Exact Match
+progress_note,,0.026580947575501723,Uncertain
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.19569478427555034,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.21383973451185248,Weak Match
+plan_last_service,Plan from Last Service,0.6460826866860409,Exact Match
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.19569478427555034,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.21383973451185248,Weak Match
+plan_last_service,Plan from Last Service,0.6460826866860409,Exact Match
+new_issues,New Issue(s)/Stressors/Extraordinary Events Presented Today,0.5383998952465633,Weak Match
+assessment_update,Diagnostic Assessment Update Required?,0.32766302920767876,Weak Match
+brief_mental_status_exam,Brief Mental Status Exam,0.6353202462973805,Exact Match
+client_presents_a_danger,Client presents as a danger to,0.9194538804582524,Exact Match
+danger_form_of,Danger is in the form of,0.6296054430215592,Exact Match
+cm_goals_addressed,Goals Addressed,0.720678888124825,Exact Match
+goals_addressed,Goals Addressed in this Session,0.8779227088682701,Exact Match
+describe,Describe:,0.7742008366726146,Exact Match
+comments_text,Comments:,0.0697806090167678,Uncertain
+tx_plan_goal,Tx Plan Goal,0.5818878524286115,Weak Match
+issue_observation_intervention_response_plan,"Presenting Issues by Client, Observation by Therapist and Clinical Intervention by Therapist:",0.602029699929056,Exact Match
+more_space_text,Additional information:,0.043258578862077235,Uncertain
+clinical_course,Clinical course of treatment including rationale for today's service,0.35107222701624136,Weak Match
+changes_consumer,Changes in the consumer's condition or situation,0.575400490276434,Weak Match
+response,Current status and response to treatment,0.42444619685007257,Weak Match
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.19569478427555034,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.21383973451185248,Weak Match
+cc_note,Progress Note*,0.09649457801830846,Uncertain
+note,Progress Note,0.4587375756725533,Weak Match
+session_objective_text,Session Objective/Intervention for the session:,0.07668472379727963,Uncertain
+session_summary_text,Session summary/brief narrative of session:,0.5650041594296245,Weak Match
+mood_text,Mood/Affect/Behavior:,-0.02692445340660384,Uncertain
+assignment_text,Assignment: (What the young person will do before the next session),0.12570412369267864,Uncertain
+educational_text,Educational Component: (What the young person learned),0.03113789617635842,Uncertain
+safety_text,"Safety: (Include any relevant updated information, including update to safety plan, crisis response, de-escalation and/or functional analysis if applicable)",0.1312789220470403,Uncertain
+sa_cc_note,Progress Note,-0.05031196251735003,Uncertain
+sa_cm_note,Progress Note,-0.0708862958866823,Uncertain
+information_text,New Salient Information provided by client/family:,0.0015860247857154008,Uncertain
+goals_text,Goal(s)/Objective(s) focused on in this session:,0.10416375933622941,Uncertain
+interventions_text,Interventions provided and client/family response:,-0.03739344904924946,Uncertain
+information_text,New Salient Information provided by client/family:,0.0015860247857154008,Uncertain
+goals_text,Goal(s)/Objective(s) focused on in this session:,0.10416375933622941,Uncertain
+interventions_text,Interventions provided and client/family response:,-0.03739344904924946,Uncertain
+focus,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive patterns or behaviors, encouragement of personality growth or development)?",0.19365021305924354,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.21383973451185248,Weak Match
+issues,"Specific problems(s), issue(s), behavior(s), skill deficits addressed:",0.3737186151322112,Weak Match
+mental,Update on client mental health status and significant life changes:,0.32245664866208973,Weak Match
+effort,Case Manager’s Efforts/Activities:,0.3616926169772003,Weak Match
+progress_since,"Progress Since Last Visit: Progress and Updates Since Last Visit OR If Appointment No Show/Cancelled, MUST Document Follow Up:",0.4842256415744121,Weak Match
+purpose,Purpose of Contact:,0.3498048683011284,Weak Match
+recipient_response,Recipient Response/Plans Toward Goal(s):,0.4399849148978901,Weak Match
+present,Who was present/where encounter took place,0.4203349722030775,Weak Match
+purpose,Purpose (goal/task being addressed),0.43802293012878435,Weak Match
+goal_objective,Goal and Objective being Addressed:,0.3191315187930935,Weak Match
+progress_towards,Progress towards Goals and Objectives:,0.5678043949829292,Weak Match
+subjective,Subjective (Client's description of the problem):,0.33680862762644903,Weak Match
+objective,Objective (Objective observations of the client and problem):,0.44773584821030427,Weak Match
+progress_since,"Progress Since Last Visit: Progress and Updates Since Last Visit OR If Appointment No Show/Cancelled, MUST Document Follow Up:",0.4842256415744121,Weak Match
+goals_objectives,Goals/Objectives from TX Plan Addressed Today:,0.4418229315287803,Weak Match
+response,Recipient Response/Plans Toward Goal(s):,0.3309465191294772,Weak Match
+subjective,Subjective (Client's description of the problem):,0.33680862762644903,Weak Match
+objective,Objective (Objective observations of the client and problem):,0.44773584821030427,Weak Match
+description,Description,0.5106881388525633,Weak Match
+response,Response,0.4337319789906334,Weak Match
+description,Description,0.5106881388525633,Weak Match
+response,Response,0.4337319789906334,Weak Match
+effectiveness,Effectiveness,0.29697161490789187,Weak Match
+Progress_textbox,Observations Regarding Progress,-0.02209157767357859,Uncertain
+Intervention_textbox,Notable Observations/Intervention Comments,-0.24041897101128185,Partial Contradiction
+symptoms_problems,Symptoms/Problems Status,0.20021882411553737,Weak Match
+plan_information,"Plan/Additional Information, if applicable",0.1652221774824678,Uncertain
+content_text,,0.08040695175169442,Uncertain
+response_text,,0.11224399366841716,Uncertain
+response_text,,0.11224399366841716,Uncertain
+current_report,Current Report of Functioning or Life Changes:,0.7207211715667831,Exact Match
+appearance_other,"If other appearance, please describe:",0.7713991876451198,Exact Match
+mood_other,"If other mood, please describe:",0.7168441880245221,Exact Match
+affect_other,"If other affect, please describe:",0.6205515703268414,Exact Match
+observations,Observations,0.49374224796263194,Weak Match
+safety_details,Safety Plan Response/Details:,0.7285773625596894,Exact Match
+presenting_problems,"Presenting Problem(s), as Indicated by Client/Family:",0.639659749468291,Exact Match
+curr_report,Current Report of Functioning or Life Changes:,0.03742601886742345,Uncertain
+appearance_other,"If ""Other"", please describe:",0.016452923752842644,Uncertain
+mood_other,"If ""Other"", please describe:",-0.05817709595549431,Uncertain
+affect_other,"If ""Other"", please describe:",0.2246245170295509,Weak Match
+observations,Observations,0.49374224796263194,Weak Match
+intervention_other,"If ""Other"" please explain:",-0.08548183774844809,Uncertain
+progress_other,"If ""Other"" please explain:",0.06314737079324514,Uncertain
+summary_response,Summary/Response of Interventions/Services,0.17648960502251215,Uncertain
+safety_plan,Safety Plan Response/Details:,0.46972907459988655,Weak Match
+scheduled_other,"If ""Other"" please explain:",-0.19359228955014507,Partial Contradiction
+current_report,Current Report of Functioning or Life Changes:,0.7207211405167032,Exact Match
+appearance_other,"If other appearance, please describe:",0.7713991876451198,Exact Match
+mood_other,"If other mood, please describe:",0.7168441880245221,Exact Match
+affect_other,"If other affect, please describe:",0.6205515703268414,Exact Match
+observations,Observations,0.49374224796263194,Weak Match
+safety_details,Safety Plan Response/Details:,0.7285773625596894,Exact Match
+current_report,Current Report of Functioning or Life Changes:,0.7207211405167032,Exact Match
+appearance_other,"If other appearance, please describe:",0.7713991876451198,Exact Match
+mood_other,"If other mood, please describe:",0.7168441880245221,Exact Match
+affect_other,"If other affect, please describe:",0.6205515703268414,Exact Match
+observations,Observations,0.49374224796263194,Weak Match
+safety_details,Safety Plan Response/Details:,0.7285773625596894,Exact Match
+Summary_textbox,,-0.09954714017159483,Uncertain
+Interventions_textbox,,-0.1858987515169893,Partial Contradiction
+Assessments_textbox,,-0.15326801878870808,Partial Contradiction
+Plan_textbox,,-0.17623526223758607,Partial Contradiction
+description,Description of Activity/encounter:,0.6933661850428705,Exact Match
+narrative,"Session Narrative: Describe goal, interventions, client’s response, and provider’s next steps to address symptoms, behaviors, conditions, or problems experienced due to the wildfire crisis. Include suicide risk level and current status.	",0.49258324303063844,Weak Match
+riskofharm_notes,Explain (Risk of Harm),0.35354253705816374,Weak Match
+focus,Focus of Session,0.3691409527018025,Weak Match
+assessment_risk,Assessment of Risk,0.7376670069544032,Exact Match
+response,Client Voice Response to Intervention/Progress,0.44958844893605177,Weak Match
+description_issues,Description of Current Issues,0.6438117391697954,Exact Match
+C_ManagementNotetxt,,-0.08153654217419845,Uncertain
+service_plan_text,,-0.1337481865157022,Uncertain
+tcm_service_text,,-0.0799431087648177,Uncertain
+service,Service,0.5697629014039202,Weak Match
+counseling_interventions,"""Therapeutic Interventions Provided""",-0.3054468916501617,Strong Contradiction
+counseling_progress,Description of Service/Progress Towards Goals,-0.17458510627350524,Partial Contradiction
+counseling_response,Client's/Other's response and insights to provider's intervention and recommendations,0.15803127044340418,Uncertain
+counseling_plan,Additional Information/Plan (if applicable),-0.20129574744907724,Partial Contradiction
+tbs_progress,Description of Service/Progress Towards Goals,-0.1443169977458203,Uncertain
+tbs_intervention,Client's/Other's response and insights to provider's intervention and recommendations,-0.2497070934040774,Partial Contradiction
+cpst_progress,Description of Service/Progress Towards Goals,0.09490963996102265,Uncertain
+cpst_intervention,Client's/Other's response and insights to provider's intervention and recommendations,0.06311224548637027,Uncertain
+purpose,Purpose,0.5531264022080038,Weak Match
+Response,Response,0.5032584695005451,Weak Match
+relevant_text,Relevant issues reported,0.12915884916231235,Uncertain
+objectives_text,Person's Report of Progress Towards Goals / Objectives Since Last Session,-0.06812918435275134,Uncertain
+narrative_text,Narrative/Interventions,0.11151514766634085,Uncertain
+Narrative_text,,0.2469160636029961,Weak Match
+narrative_text,Narrative,0.21273455660192653,Weak Match
+situation_text,"SITUATION - Current status, functioning, active symptoms",-0.05644225105841197,Uncertain
+intervention_text,INTERVENTION - Intervention used to address the symptoms*,0.1861246667133243,Uncertain
+response_text,RESPONSE - Response of the Person to the intervention,-0.015956219314439024,Uncertain
+Narrative_text,,0.2469160636029961,Weak Match
+purposeofmeeting,Purpose of Meeting:,0.5141630206495443,Weak Match
+response,Client Response:,0.451506805735813,Weak Match
+purpose_text,PURPOSE: Directly relates to community support objective from IPC / ISA / One Plan.,-0.09130577760003625,Uncertain
+activity_text,ACTIVITY: Describe the activity that relates to the service intervention. ,0.18686685080730012,Uncertain
+other_text,Other Evidence Based Practice/promising practice (not otherwise listed):,-0.08914644070593154,Uncertain
+response_text,RESPONSE: Individuals response to the service activity.,-0.1257168503532957,Uncertain
+overall_text,OVERALL OUTCOME: Progress toward objective & plan for next service.*,0.06014445303305819,Uncertain
+chief_complaint,Subjective/Chief Concern,-0.4646397661262729,Strong Contradiction
+medication_effects,Medication Adverse Effects,0.2887463530813498,Weak Match
+review_of_systems,Review of Systems/Medical Issues,0.7251589876867635,Exact Match
+objective,Objective,0.4291059932302803,Weak Match
+psych_assessment,Assessment,-0.0008092953382938126,Uncertain
+medication_risks_benefits,Medication Risks and Benefits,0.7706941459228535,Exact Match
+treatment_plan,Plan,0.008769990696635706,Uncertain
+purpose_text,,0.04452715874659392,Uncertain
+activity_text,,0.060414744199281785,Uncertain
+response_text,,0.11224346104333066,Uncertain
+overall_outcome_text,,-0.11924152523901657,Uncertain
+individual_response,Individual's Response to Intervention,0.7646424709439742,Exact Match
+talked_about,What we talked about,0.859374134786032,Exact Match
+plans,Plans (Who will do what by when?),0.40812625596431573,Weak Match
+summary_text,,0.1534114778675826,Uncertain
+response,Client Response and Participation,0.222155383846509,Weak Match
+planning,Discharge Planning/Follow Up,0.1884234520324621,Uncertain
+purpose,Overall Purpose,0.4959040780928338,Weak Match
+focus,Focus of Session,0.36914130975271314,Weak Match
+mse,Mental Status Exam,0.07857511475901267,Uncertain
+service,Service and Intervention Narrative,0.2481038871476515,Weak Match
+response,Client Response and Participation,0.222155383846509,Weak Match
+planning,Discharge Planning/Follow Up,0.1884234520324621,Uncertain
+symptoms_text,Symptoms/Risk Factors,0.01585993880372032,Uncertain
+intervention_text,Intervention,0.10011320885751766,Uncertain
+response_text,Client response to intervention,0.19604895855531415,Uncertain
+topicscovered_text,Topics Covered During SUD Treatment,0.20044137680546525,Weak Match
+progress_text,Progress Made Towards Goals,0.01926260188702328,Uncertain
+intervention_text,Intervention for Encounter,-0.0186318996212557,Uncertain
+response_text,Client Response to Intervention During Encounter,0.10797276448399097,Uncertain
+Goals,Goals and Objectives Targeted in the Session,0.3036186458421015,Weak Match
+Response,Clients Response or Reaction to Treatment Intervention(s),0.3488689428921309,Weak Match
+Observations,Significant Observations/Observation of Risk to Self or Others,0.5128839544171924,Weak Match
+goals,Goals,0.5331614287186279,Weak Match
+intervention_continued,Intervention Continued,0.9257466157770721,Exact Match
+Update_Assessment,Update/Assessment,0.5791004749918209,Weak Match
+InterventionTB,Intervention,0.22967855384934308,Weak Match
+activity_1,Coordination Activity,-0.20373179186677373,Partial Contradiction
+activity_2,Coordination Activity,-0.028164678756261826,Uncertain
+activity_3,Coordination Activity,-0.055192000976222,Uncertain
+activity_4,Coordination Activity,-0.035556457788029676,Uncertain
+purpose_text,Purpose of this intervention,-0.04171245362872578,Uncertain
+medical_necessity_text,Medical Necessity,0.09089515487638723,Uncertain
+staff_role_text,Staff role,0.03706852305077727,Uncertain
+behavior_text,"Participant behavior, affect, response to interventions provided",0.021090995836084148,Uncertain
+next_steps_text,Next steps,0.11936570027831271,Uncertain
+comments_text,Comments,0.06269957924800336,Uncertain
+clinintervention_progress,Clinical Intervention / Progress Towards Measurable Outcomes,0.2881775294636623,Weak Match
+progress_note,Progress Note,0.4905681906934821,Weak Match
+intervension_focus_of_session,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",-0.23560453248262123,Partial Contradiction
+describe_intervensions_provided,Describe the interventions provided.,0.9481697092467458,Exact Match
+describe_clients_response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.7568456475773494,Exact Match
+document_the_plan,Document the plan. If there were barriers describe the plan to overcome the barriers.,0.8697909029227702,Exact Match
+plan_from_last_service,Plan from Last Service,0.7094420276790018,Exact Match
+employment_education,Employment/education goals addressed in this session,0.2217401134581662,Weak Match
+narrative,Tobacco Cessation Services Provided:,0.0391402244696528,Uncertain
+response,Client response (and family if applicable) to session provided: Prompt client to restate to reflect learning:,0.4918893388944517,Weak Match
+housing_intervention,Content / Intervention and Progress,-0.2777039977480708,Strong Contradiction
+peer_intervention,Content / Intervention and Progress,-0.2497861929196277,Partial Contradiction
+residential_progress,"Progress (or lack of) towards Treatment Plans, Goals, Objectives addressed by this Progress Note",-0.2910221220498462,Strong Contradiction
+residential_assessment_plan,Case Manager's Assessment / Plan of Action,-0.6413532553753549,Strong Contradiction
+lincoln_service,Service,-0.02864802493892126,Uncertain
+lincoln_next_steps,"Next Steps including, but not limited to, planned action steps by the provider or by the beneficiary, collaboration with the beneficiary, collaboration with other provider(s) and any update to the problem list as appropriate.",-0.26944105915687644,Strong Contradiction
+summary_text,Summary,0.2744410690316684,Weak Match
+additional_summary_text,Additional Summary,0.3236422577087128,Weak Match
+psych_assessment_plan,Psych Assessment & Plan,0.4381965836903649,Weak Match
+focus,"What was the focus of the session (i.e alleviation of emotional disturbances, reversal or change of maladaptive Patters or behaviors, encouragement of personality growth or development)?",0.1911364625136468,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barrier to progress.",0.1988459225840345,Uncertain
+GoalTB,Client Goal Addressed (FACE TO FACE ONLY),0.06473026972192257,Uncertain
+InterventionTB,Staff Intervention (FACE TO FACE ONLY),0.37481071336222704,Weak Match
+ResponseTB,Client Response to Intervention (FACE TO FACE ONLY),0.3663284448543273,Weak Match
+PlanTB,Plan (What are the next Steps):,0.06612190305527053,Uncertain
+NotesTB,Notes:,0.3039072940338806,Weak Match
+if_yes,If Yes Specify:,0.6254683163537723,Exact Match
+purpose_of, Purpose of Visit:,0.17364164236333018,Uncertain
+behavioral_obs,Behavioral Observations:,0.11308019054520026,Uncertain
+additional_comments,Additional Comments:,0.8495600557403044,Exact Match
+fyes_spec,If Yes Specify:,0.5482111301755256,Weak Match
+findings_planemptytxt,Findings and Plan,-0.022262043304454835,Uncertain
+note_topics,Note On Topics Discussed Findings & Plan:,0.4371160771998085,Weak Match
+persons_involved, Persons involved in this event:,0.721943822859998,Exact Match
+desc_activitytxt,Describe Individualized Activity,-0.0748011387862368,Uncertain
+situation_text,Situation,0.07664078640041926,Uncertain
+intervention_text,Intervention,0.10011331568965061,Uncertain
+response_text,Response,0.1496995026613816,Uncertain
+situation,Situation,0.41653296005897583,Weak Match
+response,Client Response,0.4750499871861188,Weak Match
+appointment,Next Appointment Date/Time,0.4142093128720984,Weak Match
+situation,Situation,0.41653296005897583,Weak Match
+response,Client Response to Intervention,0.5065677372992986,Weak Match
+situation,Situation,0.41653296005897583,Weak Match
+stage,List treatment stage,0.34160369708851246,Weak Match
+response,Client Response to Intervention,0.5065671649066491,Weak Match
+referral,Referral,0.5093107445749799,Weak Match
+whyreferred,"If referred, please explain why.",0.543700145800286,Weak Match
+appt,Next Appoint Date/Time,0.16234870295100415,Uncertain
+situation,Situation,0.4165319365966508,Weak Match
+next_appointment,Next Appointment Date/Time,0.6787355527987368,Exact Match
+situation,Situation,0.4165319365966508,Weak Match
+response,Client Response,0.4750505212157969,Weak Match
+appt,Next Appointment Date/Time,0.23503821645448428,Weak Match
+nature_text,,-0.06803345762381535,Uncertain
+men_stat_text,,-0.10620969643820982,Uncertain
+req_description_text,,-0.0495264694310591,Uncertain
+safetyplan_text,Safety Plan,-0.006326842737194929,Uncertain
+response,Response:,0.4525454654678757,Weak Match
+response,Client Response,0.4750505212157969,Weak Match
+notes_textbox,Notes:,0.09725841230408892,Uncertain
+plan_textbox,Plan:,0.07087260854702658,Uncertain
+notes_textbox,Notes:,0.09725841230408892,Uncertain
+plan_textbox,Plan:,0.07087260854702658,Uncertain
+notes_tb,Notes:,-0.027959125060527844,Uncertain
+event_text,,-0.04418104634127628,Uncertain
+intervention_text, ,-0.15477619661487174,Partial Contradiction
+hide_PLAN_header, ,-0.26823450925508135,Strong Contradiction
+hide_TREATMENT_header, ,-0.22925270235153325,Partial Contradiction
+hide_ASSESSMENT_header, ,-0.22194289141002252,Partial Contradiction
+situation,Situation,0.4165319365966508,Weak Match
+response,Client Response,0.4750505212157969,Weak Match
+response,Client Response to Intervention,0.5065671649066491,Weak Match
+response,Client Response to Intervention,0.5065671649066491,Weak Match
+response,Client Response to Intervention,0.5065671649066491,Weak Match
+response,Client Response to Intervention,0.5065671649066491,Weak Match
+content_of_contact,Content of Contact,0.5689495261189199,Weak Match
+action_taken,Action Taken/Referrals/Additional Needs,0.6902938757787337,Exact Match
+goals_addressed,Goals Addressed,0.9020931184878401,Exact Match
+situation_text,,0.06689884109768195,Uncertain
+response_text,,0.11224424299058869,Uncertain
+purpose,Purpose,0.5531257075340794,Weak Match
+response,Response,0.4337309249223206,Weak Match
+description,Description:,0.5644697786845014,Weak Match
+client_response,Client Response to Intervention,0.6311849638603304,Exact Match
+client_intervsummary,"What client said, intervention, and summary of session:",0.07611833090355032,Uncertain
+client_response,Client response to intervention:,0.6825503537821711,Exact Match
+assigned_homework,"Assigned homework, action steps, or comments on plan:",0.4371588487505069,Weak Match
+narrative,Brief Narrative of Session,0.41273461558900665,Weak Match
+living_skills_text,Community Living Skills Note,0.20158245900119606,Weak Match
+socialization_text,Socialization Note,0.4142093479310201,Weak Match
+advocacy_text,Self-Advocacy Note,0.3966266237599962,Weak Match
+supports_text,Developing Natural Supports Note,0.37402759916234546,Weak Match
+sharing_text,Sharing Note,0.5141423809661301,Weak Match
+topics_discussed,Topics Discussed:,0.8724375090741332,Exact Match
+narrative,Narrative*,0.38734715942525544,Weak Match
+status_text,,0.11052132803320981,Uncertain
+explanation_skills_text,,-0.025986015806651504,Uncertain
+explanation_training_text,,-0.1629055250780595,Partial Contradiction
+narrative_text,,0.2173833290537249,Weak Match
+explanation_progress_text,,-0.05071709666425669,Uncertain
+situation_text,Situation,0.07664076811966228,Uncertain
+intervention_text,Intervention,0.10011315403509417,Uncertain
+response_text,Response,0.14969943420034773,Uncertain
+observations,Observations,0.4937435025189826,Weak Match
+response_outcome,Response/Outcome,0.4475971956882382,Weak Match
+prescreening_supplement,Prescreening Supplement,0.6213886649645575,Exact Match
+narrative,Narrative,0.41794998837981495,Weak Match
+focus,"What was the focus of the session (i.e alleviation of emotional disturbances, reversal or change of maladaptive Patters or behaviors, encouragement of personality growth or development)?",0.19113710099061165,Uncertain
+response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barrier to progress.",0.1988458280365255,Uncertain
+focus_text,,-0.1010327507258886,Uncertain
+session_text,Session Notes,-0.0881380819570006,Uncertain
+interventions_text,Interventions Used/Response to Interventions*,0.0480051554712351,Uncertain
+progress_text,Progress*,0.2522618020295575,Weak Match
+description,Description,0.5106881388525633,Weak Match
+response_text,Client Response/Assessment,0.15139215996279348,Uncertain
+desc_education,Describe Education,0.8028947346015904,Exact Match
+clin_obs,Clinical Observations,0.5223315954656933,Weak Match
+client_response,Client Responses,0.6348425662598884,Exact Match
+progress_towards,Progress Towards Recovery Plan Objectives,0.47852878046772085,Weak Match
+desc_details,Describe details of housing service,0.7146257925163505,Exact Match
+clin_obs,Clinical Observations,0.5223315954656933,Weak Match
+client_response,Client Responses,0.6348425662598884,Exact Match
+progress_towards,Progress Towards Recovery Plan Objectives,0.47852878046772085,Weak Match
+timelines,Timelines for Next Service,0.44967385041239794,Weak Match
+what_actions,What actions should the individual complete before next service?,0.682994416822847,Exact Match
+additional,Additional progress this session,0.7811869997346231,Exact Match
+additional,Additional progress this session,0.7811869997346231,Exact Match
+other_contact,Other contact,0.7600619094108968,Exact Match
+significant_changes_model,My Significant Changes/Needs/Life Events since last review,-0.030498600508773066,Uncertain
+progressinterventionrecs,Progress/Intervention/Recommendations/Additional Comments,0.05876233284632496,Uncertain
+client_satisfaction_with_services_comment,Consumer/Parent/Guardian Satisfaction with Services Comment,0.5434221688522287,Weak Match
+Purpose,Purpose of Contact,0.3082755538609751,Weak Match
+Response,Customer Response,0.6158082938661709,Exact Match
+explanation,"Explanation (use direct quotes from Customer, when possible)",0.43046351352024753,Weak Match
+details,Describe details of follow up service,0.5963720958929369,Weak Match
+observations,Clinical Observations,0.6607793240167018,Exact Match
+responses,Individuals Responses,0.5411602921140058,Weak Match
+timeline,Timeline for Next Service,0.3210429057933858,Weak Match
+progress_towards_objectives,Progress towards objectives being addressed,0.7242754765533467,Exact Match
+progress_towards_objectives_being_addressed,Progress towards objectives being addressed,0.8404792204863059,Exact Match
+focus_intervention,Focus / Intervention,0.49108414882743984,Weak Match
+plan_for_continuing_work,Plan for Continuing Work,0.8905467585382846,Exact Match
+effectiveness,Intervention Effectiveness,0.41096447659254165,Weak Match
+outcomes,Describe Outcomes,0.5613273616926637,Weak Match
+information,Session Information,0.7063049925158287,Exact Match
+purpose,Purpose/Problem,-0.04761305317265321,Uncertain
+goals,Goals/Actions,0.22535104455739188,Weak Match
+intervention_course,Interventions and Course of Treatment/Action,0.10122780699983015,Uncertain
+purpose,Purpose/Present,0.3029283636006724,Weak Match
+response,Response,0.4337309249223206,Weak Match
+purpose,Purpose/Present,0.3029283636006724,Weak Match
+response,Response,0.4337309249223206,Weak Match
+goal,Goal,0.6237264348064429,Exact Match
+interventions_plan,Planned Interventions,0.7792321830721686,Exact Match
+transition_plan,Transition Plan,0.6620426751630722,Exact Match
+focus,Focus of Session,0.36914060721331676,Weak Match
+care_plan,Care Plan,0.6483993844003069,Exact Match
+current_service,"Describe current service(s), how the service addressed the beneficiary's behavioral health need (e.g., symptom, condition, diagnosis, and/or risk factors).",0.5333601595652128,Weak Match
+service,"Describe current service(s), how the service addressed the beneficiary's behavioral health need (e.g., symptom, condition, diagnosis, and/or risk factors).",0.31959544800282486,Weak Match
+goal,Goal,0.6237264348064429,Exact Match
+transition_plan,Transition Plan,0.6620426751630722,Exact Match
+presenting_issues,Today's presenting issues,0.7754055149085591,Exact Match
+safety_plan_comments,Comments,-0.023086550298652978,Uncertain
+response,Response to Interventions,0.46216076640019055,Weak Match
+Progresstextbox,Progress on treatment plan (ISP) goals since last visit:,-0.3358439756272915,Strong Contradiction
+Itemstextbox,Items addressed today which are on the treatment plan (ISP)?,-0.1247603495725477,Uncertain
+Interventionstextbox,Interventions used and client's response to treatment:*,-0.14314720709049084,Uncertain
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,-0.0909610364950255,Uncertain
+Suicidalitytextbox,Suicidality / Danger to Others:,-0.10073437203239881,Uncertain
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,-0.1626153954936023,Partial Contradiction
+Progresstextbox,Progress on treatment plan (ISP) goals since last visit:,-0.3358439756272915,Strong Contradiction
+Itemstextbox,Items addressed today which are on the treatment plan (ISP)?,-0.12475970481688471,Uncertain
+Interventionstextbox,Interventions used and client's response to treatment:,-0.13536348251120164,Uncertain
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,-0.09096116788395232,Uncertain
+Suicidalitytextbox,Suicidality / Danger to Others:,-0.1007345469027348,Uncertain
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,-0.1626152913918354,Partial Contradiction
+Progresstextbox,Progress on goals since last visit:,-0.1526557468727151,Partial Contradiction
+Interventionstextbox,"Describe interventions used and manner of delivery, including treatment goals addressed and client's response:",-0.10757147429680428,Uncertain
+Moodtextbox,Mood / Behavior / Affect / Functioning / Substance Use:,-0.09096116788395232,Uncertain
+Suicidalitytextbox,"Suicidality / Danger to Others: If suicidality / danger to others present, complete a Risk Assessment service. If not clinically relevant, put None Reported.",-0.2021318029617085,Partial Contradiction
+Providertextbox,Provider / Client Plan of Action (or future directions/next steps):,-0.1626152913918354,Partial Contradiction
+presentingproblemtb,Presenting Problem: (diagnosis and relevant symptoms),-0.1157640536458031,Uncertain
+treatmentgoaltb,Goals for treatment: (what do you hope will be different for you),0.021617733823403113,Uncertain
+psychoeducationtb,Psychoeducation provided: (information about diagnosis/effective EBP and expected outcomes),0.02639094688148875,Uncertain
+treatmentbarriertb,"Possible barrier to treatment: (transportation, childcare, ability to follow through etc.)",-0.04293340370418065,Uncertain
+plantb,Plan: (Next steps for starting therapy services),-0.13550641878553876,Uncertain
+Narrative_text,Narrative,0.14004680189091356,Uncertain
+narrative,Narrative,0.41795049402205636,Weak Match
+health,Health & Safety Issues,0.29525808052622765,Weak Match
+coordinating,Linking & Coordinating,0.6313448536877702,Exact Match
+purpose_of_session,Purpose of Session:,0.618866417116951,Exact Match
+summary_of_session,Summary of Session (What interventions were utilized and why were they necessary?):,0.534493719194371,Weak Match
+service,Service,0.5697629903474808,Weak Match
+during_service,What Occurred during this service event,0.7305565094306323,Exact Match
+behavior,Describe any pertinent event or behavior relating to the individual which occurs during the provision of this service,0.2912786228190383,Weak Match
+progress_text,,-0.05561411643440164,Uncertain
+follow_up,What follow up is needed,0.5955209700808017,Weak Match
+scope,Scope of Service/Interventions,0.04308347975972552,Uncertain
+response,Client Response to Interventions,0.4888512119233501,Weak Match
+skills,Skills taught/reinforced/materials used,0.2568804702831815,Weak Match
+response,Response to Intervention,0.5154226130250179,Weak Match
+BehaviorText,,-0.13757759017572307,Uncertain
+InterventionText,,-0.11380798788226135,Uncertain
+ResponseText,,-0.03798634084259426,Uncertain
+PlanText,,-0.11080586667351414,Uncertain
+AdditionalInfoText,,-0.058256055153948744,Uncertain
+ParticipantsText,,-0.06240454760941409,Uncertain
+PhysicalLocationProviderText,,-0.09344170259044753,Uncertain
+PhysicalLocationClientText,,-0.07941116182914863,Uncertain
+WhoInSessionCheckboxText,,-0.14362066392343334,Uncertain
+OtherText,,-0.04253173368222284,Uncertain
+clinical_intervention,Clinical Intervention / Progress Toward Measurable Outcome,0.43022398990676036,Weak Match
+homework_plan,Homework/Plan for Next Session,0.33989320425567643,Weak Match
+focus_session,"What was the focus of the session (i.e. alleviation of emotional disturbances, reversal or change of maladaptive Patterns or behaviors, encouragement of personality growth or development)?",0.32892396576685773,Weak Match
+client_response,"Describe the client's response to the intervention, progress made toward goals and clients strengths. If progress is not being made, describe reasons and barriers to progress.",0.5405151931703848,Weak Match
+plan_document,Document the plan. If there were barriers describe the plan to overcome the barriers.,0.7552760719618801,Exact Match
+intervention_description_and_narrative,Describe Interventions Delivered:,0.008772014468112821,Uncertain
+patients_response_interventions_delivered,Describe the Patient's Response to Interventions Delivered & Plans for Follow Up:,0.6819123926593134,Exact Match
