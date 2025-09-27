@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual envs
+.venv/
+env/
+venv/
+
+# Jupyter noise
+.ipynb_checkpoints/
+
+# Local outputs/artifacts (optional—keep if you really need them)
+outputs/*
+!outputs/.gitkeep
