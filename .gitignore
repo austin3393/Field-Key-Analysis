@@ -11,3 +11,26 @@ __pycache__/
 
 # notebooks checkpoints (optional)
 .ipynb_checkpoints/
+# environments
+.venv/
+env/
+venv/
+
+# python junk
+__pycache__/
+*.pyc
+
+# notebooks
+.ipynb_checkpoints/
+
+# tools / editors
+.ruff_cache/
+.vscode/
+
+# artifacts (tune for your project)
+outputs/
+data/
+*.pth
+*.pt
+*.bin
+*.ckpt
