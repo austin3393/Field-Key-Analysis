@@ -1,0 +1,13 @@
+
+# macOS
+.DS_Store
+
+# caches / bytecode
+__pycache__/
+.ruff_cache/
+
+# editors
+.vscode/
+
+# notebooks checkpoints (optional)
+.ipynb_checkpoints/
