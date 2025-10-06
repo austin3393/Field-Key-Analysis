@@ -6,12 +6,26 @@ from functools import lru_cache
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import torch
 
+# --- device & AMP flags (safe defaults) ---
+import torch
+_DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+_USE_AMP = torch.cuda.is_available()
 
-_DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# --- NLI globals (lazy-loaded) ---
+_nli_model = None
+_nli_tokenizer = None
+_NLI_ENTAIL_IDX = 2  # index for 'entailment' in MNLI heads
+
+
 
 # Sentence embeddings model (GPU-aware)
 _EMB_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 _emb_model = SentenceTransformer(_EMB_MODEL_NAME, device=str(_DEVICE))
+
+
+
+
+
 
 def embed(texts: list[str]) -> np.ndarray:
     # Already runs on GPU if available; returns L2-normalized numpy array
@@ -62,68 +76,89 @@ def cosine_scores_batch(candidate_keys: list[str], title_text: str) -> list[floa
 
 # --- NLI entailment scorer ---
 
-# Pick a strong NLI model (roberta-large-mnli is a solid default).
-# If it's heavy for your machine, swap to 'roberta-base-mnli'.
+def _ensure_nli_loaded(model_name: str = "roberta-large-mnli"):
+    """Load NLI model/tokenizer once, on first use."""
+    global _nli_model, _nli_tokenizer
+    if _nli_model is not None and _nli_tokenizer is not None:
+        return
 
+    _nli_tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-_NLI_MODEL_NAME = "roberta-large-mnli"  # swap to 'roberta-base-mnli' for speed
-_nli_model = None
-_nli_tok = None
+    # Use fp16 on GPU for speed, fp32 on CPU for compatibility
+    dtype = torch.float16 if _DEVICE == "cuda" else torch.float32
+    _nli_model = AutoModelForSequenceClassification.from_pretrained(
+        model_name,
+        torch_dtype=dtype,
+    ).to(_DEVICE).eval()
 
-def _ensure_nli():
-    global _nli_model, _nli_tok
-    if _nli_model is None or _nli_tok is None:
-        _nli_tok = AutoTokenizer.from_pretrained(_NLI_MODEL_NAME)
-        _nli_model = AutoModelForSequenceClassification.from_pretrained(_NLI_MODEL_NAME)
-        _nli_model.to(_DEVICE)
-        _nli_model.eval()
+    # no grads ever during inference
+    for p in _nli_model.parameters():
+        p.requires_grad_(False)
+
 
 def _softmax(logits: np.ndarray) -> np.ndarray:
     x = logits - logits.max(axis=-1, keepdims=True)
     ex = np.exp(x)
     return ex / ex.sum(axis=-1, keepdims=True)
 
-@lru_cache(maxsize=2048)
-def nli_entailment_prob(premise: str, hypothesis: str) -> float:
-    """
-    Returns P(entailment | premise, hypothesis) in [0,1].
-    """
-    if not premise or not hypothesis:
-        return 0.0
-    _ensure_nli()
-    with torch.no_grad():
-        inputs = _nli_tok(premise, hypothesis, return_tensors="pt", truncation=True, max_length=256)
-        outputs = _nli_model(**inputs)
-        logits = outputs.logits.detach().cpu().numpy()[0]  # order: [contradiction, neutral, entailment]
-        probs = _softmax(logits)
-        entail = float(probs[2])
-        return entail
 
-def _softmax(logits: np.ndarray) -> np.ndarray:
-    x = logits - logits.max(axis=-1, keepdims=True)
-    ex = np.exp(x)
-    return ex / ex.sum(axis=-1, keepdims=True)
 
-def nli_entailment_prob_batch(premise: str, hypotheses: list[str]) -> list[float]:
+# --- in scoring_utils.py ---
+
+# 1) Make sure there is NO lru_cache on the batch function.
+# If you have something like:
+# @lru_cache(maxsize=2048)
+# def nli_entailment_prob_batch(...):
+# remove that decorator.
+
+def nli_entailment_prob_batch(premise: str, hypotheses) -> list[float]:
     """
-    Returns P(entailment) for each hypothesis vs the same premise, batched on GPU if available.
+    Batched NLI entailment probabilities P(entailment | premise, hypothesis).
+    Accepts any iterable for `hypotheses`; coerces to a list[str].
+    No caching here (lists are unhashable) — keep batching for speed.
     """
-    if not premise or not hypotheses:
-        return [0.0] * len(hypotheses)
-    _ensure_nli()
+    _ensure_nli_loaded()   # <<< ensure model exists
+    
+    
+    prem = clean_title_for_cosine(premise)
+    # coerce to list[str] and guard Nones
+    if hypotheses is None:
+        hyps = []
+    else:
+        hyps = [key_to_text(h) if isinstance(h, str) else key_to_text(str(h)) for h in hypotheses]
+
+    if not hyps:
+        return []
+
+    _nli_model.eval()
     with torch.no_grad():
-        enc = _nli_tok([premise] * len(hypotheses), hypotheses,
-                       return_tensors="pt", truncation=True, padding=True, max_length=256)
+        enc = _nli_tokenizer([prem]*len(hyps), hyps,
+                             return_tensors="pt", truncation=True,
+                             padding=True, max_length=256)
         enc = {k: v.to(_DEVICE) for k, v in enc.items()}
+
         if _USE_AMP:
             with torch.cuda.amp.autocast():
                 out = _nli_model(**enc)
         else:
             out = _nli_model(**enc)
-        logits = out.logits.detach().cpu().numpy()  # (N, 3) = [contradict, neutral, entail]
-        probs = _softmax(logits)
-        return [float(p[2]) for p in probs]
 
+        probs = out.logits.softmax(dim=-1)
+        entail = probs[:, _NLI_ENTAIL_IDX]    # usually index 2
+        return entail.detach().cpu().numpy().tolist()
+        
+def nli_entailment_prob(premise: str, hypothesis: str) -> float:
+    """
+    Convenience wrapper: single hypothesis NLI score.
+    """
+    _ensure_nli_loaded()   # <<< ensure model exists
+    return nli_entailment_prob_batch(premise, [hypothesis])[0]
+    
+
+def _softmax(logits: np.ndarray) -> np.ndarray:
+    x = logits - logits.max(axis=-1, keepdims=True)
+    ex = np.exp(x)
+    return ex / ex.sum(axis=-1, keepdims=True)
 
 def cosine_scores_batch(candidate_keys: list[str], title_text: str) -> list[float]:
     title_txt = clean_title_for_cosine(title_text)
@@ -142,3 +177,20 @@ def combined_cosine_nli_scores_batch(candidate_keys: list[str], title_text: str,
     entail = nli_entailment_prob_batch(clean_title_for_cosine(title_text),
                                        [key_to_text(k) for k in candidate_keys])  # [0,1]
     return [float(alpha*c + beta*e) for c, e in zip(cos01, entail)]
+
+
+# --- added in colab: combined cosine + NLI scorer shim ---
+def combined_cosine_nli_score(candidate_key: str, title_text: str, alpha: float = 0.6, beta: float = 0.4) -> float:
+    """
+    Weighted blend of cosine similarity (key vs title) and NLI entailment
+    (title -> key), both in [0,1].
+    """
+    # reuse existing helpers already defined in this module
+    cos = cosine_score(candidate_key, title_text)       # [-1, 1]
+    cos01 = 0.5 * (cos + 1.0)                           # -> [0,1]
+    hyp = key_to_text(candidate_key)                    # e.g. "interventions given session"
+    prem = clean_title_for_cosine(title_text)           # title cleaned
+    ent = nli_entailment_prob(prem, hyp)                # [0,1]
+    return float(alpha * cos01 + beta * ent)
+
+
