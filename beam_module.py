@@ -1,9 +1,8 @@
 from typing import List, Tuple
-import re
-from scoring_utils import combined_cosine_nli_score
 from collections import Counter
-
-
+from scoring_utils import combined_cosine_nli_scores_batch  # batch scorer
+from key_cleaning import sanitize_candidate_for_style, is_meaningful_ascii_key
+import re
 
 STOPWORDS = {
     "a","an","and","the","of","to","for","in","at","on","with","from"
@@ -14,8 +13,6 @@ STYLE = {
     "max_len": 50,
 }
 
-
-
 def title_tokens(norm_title: str) -> List[str]:
     if not isinstance(norm_title, str):
         norm_title = "" if norm_title is None else str(norm_title)
@@ -24,7 +21,6 @@ def title_tokens(norm_title: str) -> List[str]:
     s = re.sub(r"_{2,}", "_", s).strip("_")
     tokens = [t for t in s.split("_") if t and t not in STOPWORDS]
     return tokens
-
 
 def style_ok(s: str) -> bool:
     if not isinstance(s, str) or not s:
@@ -39,15 +35,11 @@ def style_ok(s: str) -> bool:
 
 
 
-from typing import List, Tuple
-from collections import Counter
-from scoring_utils import combined_cosine_nli_scores_batch  # <-- batch scorer
-
 def beam_search_title_only(
     title_tokens_in: List[str],
     original_title_str: str,
-    beam_width: int = 5,
-    max_len: int = 5,
+    beam_width: int = 3,
+    max_len: int = 7,
 ) -> Tuple[str, float, List[str]]:
     """Beam search constrained to order-preserving subsequences of the title.
     Returns (best_key, best_score, best_token_seq). Never returns None.
@@ -68,24 +60,26 @@ def beam_search_title_only(
                 return -1
         return pos
 
-    # 0) sanitize
+    # 0) sanitize inputs
     title_tokens = [t for t in title_tokens_in if isinstance(t, str) and t]
     if not title_tokens or not isinstance(original_title_str, str) or not original_title_str.strip():
         return "", 0.0, []
 
-    # 1) init beam with all 1-token subsequences  (BATCHED)
+    # 1) init beam with all 1-token subsequences  (BATCHED + SANITIZED)
     one_token_seqs: List[List[str]] = [[t] for t in title_tokens]
-    one_token_keys = [join_tokens(seq) for seq in one_token_seqs]
-    # drop empties (rare)
-    mask = [bool(k) for k in one_token_keys]
-    one_token_seqs = [s for s, m in zip(one_token_seqs, mask) if m]
-    one_token_keys = [k for k, m in zip(one_token_keys, mask) if m]
+    raw_keys = [join_tokens(seq) for seq in one_token_seqs]
+    clean_keys = [sanitize_candidate_for_style(k) for k in raw_keys]
 
-    if not one_token_keys:
+    # filter out empties / non-meaningful ASCII after cleaning
+    keep_mask = [(ck and is_meaningful_ascii_key(ck)) for ck in clean_keys]
+    one_token_seqs = [s for s, m in zip(one_token_seqs, keep_mask) if m]
+    clean_keys = [ck for ck, m in zip(clean_keys, keep_mask) if m]
+
+    if not clean_keys:
         return "", 0.0, []
 
     one_token_scores = combined_cosine_nli_scores_batch(
-        one_token_keys, original_title_str, alpha=0.6, beta=0.4
+        clean_keys, original_title_str, alpha=0.6, beta=0.4
     )
     candidates: List[Tuple[List[str], float]] = list(zip(one_token_seqs, one_token_scores))
 
@@ -95,7 +89,8 @@ def beam_search_title_only(
 
     # 2) expand beam up to max_len
     for _ in range(2, max_len + 1):
-        expansions: List[Tuple[List[str], float]] = []
+        # Collect expansions (seq only for now), then batch-score CLEANED keys.
+        expansions_seqs: List[List[str]] = []
 
         for seq, _sc in beam:
             last_pos = last_index_in_title(seq, title_tokens)
@@ -116,30 +111,43 @@ def beam_search_title_only(
                     continue
 
                 new_seq = seq + [tok]
-                key = join_tokens(new_seq)
-                if not key:
+                raw_key = join_tokens(new_seq)
+                clean_key = sanitize_candidate_for_style(raw_key)
+                if not clean_key or not is_meaningful_ascii_key(clean_key):
                     continue
 
-                # placeholder score; we'll overwrite with batched scores below
-                expansions.append((new_seq, 0.0))
+                # Keep the seq; we will compute scores in one batch next
+                expansions_seqs.append(new_seq)
 
-        if not expansions:
-            return join_tokens(best_seq), best_score, best_seq
+        if not expansions_seqs:
+            # return the best we have so far (CLEAN the final key)
+            best_raw = join_tokens(best_seq)
+            best_clean = sanitize_candidate_for_style(best_raw)
+            return best_clean, best_score, best_seq
 
-        # ---- BATCH SCORING OF EXPANSIONS (this is where your snippet goes) ----
-        cand_keys = [join_tokens(seq) for seq, _ in expansions]
+        # ---- BATCH SCORING OF EXPANSIONS (SANITIZED KEYS) ----
+        cand_clean_keys = [sanitize_candidate_for_style(join_tokens(seq)) for seq in expansions_seqs]
+        # Filter again in case any weirdness slipped through (shouldn't, but safe)
+        valid = [(ck and is_meaningful_ascii_key(ck)) for ck in cand_clean_keys]
+        expansions_seqs = [s for s, v in zip(expansions_seqs, valid) if v]
+        cand_clean_keys = [ck for ck, v in zip(cand_clean_keys, valid) if v]
+
+        if not cand_clean_keys:
+            best_raw = join_tokens(best_seq)
+            best_clean = sanitize_candidate_for_style(best_raw)
+            return best_clean, best_score, best_seq
+
         batch_scores = combined_cosine_nli_scores_batch(
-            cand_keys, original_title_str, alpha=0.6, beta=0.4
+            cand_clean_keys, original_title_str, alpha=0.6, beta=0.4
         )
-        for i in range(len(expansions)):
-            expansions[i] = (expansions[i][0], batch_scores[i])
-        # -----------------------------------------------------------------------
+        expansions = list(zip(expansions_seqs, batch_scores))
+        # -------------------------------------------------------
 
         # deduplicate by sequence; keep best score; tie-break
         by_seq = {}
         for seq, sc in expansions:
             tup = tuple(seq)
-            key_str = join_tokens(seq)
+            key_str = join_tokens(seq)  # tie-break uses raw join (deterministic)
             prev = by_seq.get(tup)
             if (prev is None) or (sc > prev[0]) or (sc == prev[0] and key_str < prev[1]):
                 by_seq[tup] = (sc, key_str)
@@ -154,10 +162,13 @@ def beam_search_title_only(
             better = (
                 cand_score > best_score
                 or (cand_score == best_score and len(cand_seq) < len(best_seq))
-                or (cand_score == best_score and len(cand_seq) == len(best_seq) and join_tokens(cand_seq) < join_tokens(best_seq))
+                or (cand_score == best_score and len(cand_seq) == len(best_seq)
+                    and join_tokens(cand_seq) < join_tokens(best_seq))
             )
             if better:
                 best_seq, best_score = cand_seq, cand_score
 
-    # 3) return best
-    return join_tokens(best_seq), best_score, best_seq
+    # 3) return best (CLEANED)
+    best_raw = join_tokens(best_seq)
+    best_clean = sanitize_candidate_for_style(best_raw)
+    return best_clean, best_score, best_seq

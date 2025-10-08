@@ -76,7 +76,7 @@ def cosine_scores_batch(candidate_keys: list[str], title_text: str) -> list[floa
 
 # --- NLI entailment scorer ---
 
-def _ensure_nli_loaded(model_name: str = "roberta-large-mnli"):
+def _ensure_nli_loaded(model_name: str = "roberta-large-mnli"): #"roberta-base-mnli" for faster but less accurate
     """Load NLI model/tokenizer once, on first use."""
     global _nli_model, _nli_tokenizer
     if _nli_model is not None and _nli_tokenizer is not None:
